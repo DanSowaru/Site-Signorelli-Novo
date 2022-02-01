@@ -1,0 +1,54 @@
+/******************* CSS RESET ******************************/
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: ;
+	color: ;
+	-webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+	font-size: ;
+	font-family: ;
+}
+
+button {
+	cursor: pointer;
+}
+
+/******************* Template Colors ************************/
+
+cores sig {
+	color: #2e83ce;
+	color: #2a406e;
+	color: rgb(42, 64, 110);
+	color: #b02726;
+	color: rgb(176, 39, 38);
+}
+
+gradients {
+	background-image: linear-gradient(
+		to bottom left,
+		rgb(42, 64, 110, 0.7),
+		rgb(42, 64, 110, 1),
+		rgb(176, 39, 38, 0.7),
+		rgb(176, 39, 38, 1)
+	);
+}
+
+/******************* Homepage Mobile ************************/
+
+@media only screen and (max-width: 767px) {
+}
+
+/******************* Homepage Desktop ************************/
+
+@media only screen and (min-width: 768px) {
+}
