@@ -1,0 +1,77 @@
+SITE UNISIGNORELLI:
+META: Incentivar clientes a realizar compras pelo site.
+Inspiração: Modelo Blueberry, Celso Lisboa, Estácio, LP do Google vendendo o Google Ads;
+
+1- Página Inicial:
+– Layout:
+•	Fundo branco;
+•	poucas imagens;
+•	letra bem visível; 
+•	telefones de contatos dos setores;
+•	e-mail de contato;
+•	Quem somos (bom título, bom texto, 5 a 6 linhas);
+•	Depoimentos (prova social);
+•	link para blog no rodapé (lives e outros);
+•	Foto da infraestrutura humanizada, com a possibilidade de navegar pela infraestrutura. (Videoplayer na homepage);
+•	Navbar (Barra de Navegação): 
+    o	Fale conosco: ligação e whatsapp 
+    o	Perguntas freqüentes;
+    o	Graduação EaD
+	– Pop-up (após click), com a possibilidade do não-preenchimento, ofertando desconto de 10% em qualquer curso, condicionado ao preenchimento de informações. (e-mail e telefone).
+	Cursos por polo
+	lista de polos com telefone de contato
+    o	Graduação Presencial
+	– Pop-up (após click), com a possibilidade do não-preenchimento, ofertando desconto de 10% em qualquer curso, condicionado ao preenchimento de informações. (e-mail e telefone).
+    o	Pós-Graduação EaD
+	– Pop-up (após click), com a possibilidade do não-preenchimento, ofertando desconto de 10% em qualquer curso, condicionado ao preenchimento de informações. (e-mail e telefone).
+    o	Pós-Graduação Presencial
+	– Pop-up (após click), com a possibilidade do não-preenchimento, ofertando desconto de 10% em qualquer curso, condicionado ao preenchimento de informações. (e-mail e telefone).
+    o	Cursos Livres
+	– Pop-up (após click), com a possibilidade do não-preenchimento, ofertando desconto de 10% em qualquer curso, condicionado ao preenchimento de informações. (e-mail e telefone).
+    o	Cursos Sequenciais
+	– Pop-up (após click), com a possibilidade do não-preenchimento, ofertando desconto de 10% em qualquer curso, condicionado ao preenchimento de informações. (e-mail e telefone).
+    o	Institucional (Inserir as informações exigidas pelo MEC  - Portaria MEC 23 21/12/2017)
+    o	Abra seu polo (Torne-se um gestor de polo? Cadastre-se para abrir um polo? Seja nosso parceiro? ... ) , anexar o plano de negócios; 
+    o	Sou Aluno
+•	Página
+    o	Headline chamativa (100 mil alunos?)
+    o	Perguntas Frequentes
+2 – Modelo de Landing Page (Graduação EaD):
+•	Ao clicar em graduação EaD aparecerão todos os cursos.
+•	Ao clicar em um curso, o candidato visualizará:
+    o	Matricule-se já!
+	Formulário de Inscrição
+    o	Fale com um de nossos consultores
+    o	Por que cursar ... ? 
+    o	Tempo de Duração;
+    o	Objetivo do curso;
+    o	Matriz curricular;
+    o	Perfil do egresso;
+    o	Valor;
+    o	Oportunidades no Mercado de Trabalho (áreas de atuação)
+    o	Infraestrutura;
+    o	Prova social  (3 depoimentos por curso por modalidade pronto até 10 de março (3 videos e 3 textos) – Rodrigo e Veronica); 
+    o	Nossos diferenciais (comparando com outras instituições)
+    o	Matricule-se já! (Clique aqui para se matricular AGORA!)
+	Formulário de Inscrição;
+	ENEM (Anexar documentos p/ análise -> Coord. Do Curso -> p/ e-mail institucional)
+•	Pegar com Esrom a relação dos documentos necessários
+	Portador de Diploma (Anexar documentos p/ análise -> Coord. Do Curso -> p/ e-mail institucional)
+•	Pegar com Esrom a relação dos documentos necessários
+	Transferência externa (Anexar documentos p/ análise -> Coord. Do Curso -> p/ e-mail institucional)
+•	Pegar com Esrom a relação dos documentos necessários
+	Vestibular (direcionar para os polos com cópia para o comercial -> agendar data -> contato do gestor)
+Obs.: Inserir os gatilhos de urgência e escassez (vagas limitadas, etc.); Incluir TAGS para facebook e Google ads
+3 – Demais providências:
+•	Testar velocidade de carregamento (testmysite.thinkwithgoogle.com/intl/PT-br);
+•	Agendar reunião com 5 alunos do ensino médio para avaliar a estrutura da página;
+•	Discutir a estrutura com o Angelo e os Coordenadores;
+•	Próx. Reunião : comparar o modelo de LPs
+    o	Celso Lisboa;
+    o	Estácio
+    o	Descomplica
+    o	Anhanguera
+    o	UVA
+    o	Blueberry (bbmarketing)
+•	Destacar autoridade pela quantidade de alunos formados, notas/MEC, selo da ABMES, tempo de fundação, capilaridade, convênios nacionais e internacionais, corpo docente qualificado, plataforma própria, infraestrutura tecnológica, ensino humanizado, biblioteca física e virtual, matrizes internacionalizadas com disciplinas voltadas à demanda de mercado em todos os cursos e com foco no empreendedorismo, engajamento social, aplicativo de comunicação integrada em tempo real, material didático ELEVA e SAGAH
+ 
