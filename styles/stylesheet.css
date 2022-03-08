@@ -29,6 +29,7 @@ button {
 /******************* Template Colors ************************/
 
 cores sig {
+	color: #0d6efd;
 	color: #2e83ce;
 	color: #2a406e;
 	color: rgb(42, 64, 110);
@@ -36,13 +37,19 @@ cores sig {
 	color: rgb(176, 39, 38);
 }
 
-gradients {
+.red-gradient {
+	background-image: linear-gradient(
+		to bottom left,
+		rgb(176, 39, 38, 0.7),
+		rgb(176, 39, 38, 1)
+	);
+}
+
+.blue-gradient {
 	background-image: linear-gradient(
 		to bottom left,
 		rgb(42, 64, 110, 0.7),
-		rgb(42, 64, 110, 1),
-		rgb(176, 39, 38, 0.7),
-		rgb(176, 39, 38, 1)
+		rgb(42, 64, 110, 1)
 	);
 }
 
@@ -59,6 +66,12 @@ gradients {
 	}
 
 	#button-student-area {
+		font-size: small;
+	}
+
+	#logo-unisignorelli-navbar {
+		max-width: 13rem;
+		margin: 1rem 0 1rem 0;
 	}
 }
 
@@ -80,6 +93,19 @@ gradients {
 	#header-contact-phones {
 		display: flex;
 		justify-content: space-evenly;
+	}
+
+	#logo-unisignorelli-navbar {
+		max-width: 18rem;
+		margin: 1rem 2vw 1rem 0;
+	}
+
+	#header-container-flex {
+		height: 6vh;
+	}
+
+	.nav-item {
+		margin: auto 0.5vw auto 0.5vw;
 	}
 }
 
@@ -115,15 +141,51 @@ gradients {
 
 #button-student-area {
 	/* max-height: 2rem; */
-	flex-shrink: 4;
+	/* flex-shrink: 4; */
 	border-radius: 0.5rem;
 	border: 0;
 	padding: 2%;
-	background-color: #2e83ce;
+	/* background-color: rgb(176, 39, 38); */
 	color: white;
-	margin: 5% 0 5% 0;
+	/* margin: 5% 0 5% 0; */
 }
 
 .fab {
 	margin: 2px;
+}
+
+#main-navbar {
+	background-color: #2a406e;
+	display: flex;
+}
+
+#navbar-container-flex {
+	display: flex;
+}
+
+.nav-item > a:hover {
+	opacity: 0.6;
+}
+
+.float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+}
+
+.float:visited {
+	color: #fff;
+}
+
+.my-float {
+	margin-top: 16px;
 }
