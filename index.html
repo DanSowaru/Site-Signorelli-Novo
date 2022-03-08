@@ -16,10 +16,16 @@
 		></script>
 		<link
 			rel="stylesheet"
-			href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			href="icons\fontawesome-free-6.0.0-web\cssfontawesome.min.css"
+		/>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
 			crossorigin="anonymous"
 		/>
+
 		<link rel="stylesheet" href="styles/stylesheet.css" />
 	</head>
 	<body>
@@ -51,27 +57,165 @@
 					<span> <i class="fab fa-whatsapp"></i>(21) 96968 1125</span>
 				</section>
 				<section class="col-md-3 col" id="header-student-area">
-					<button type="button" id="button-student-area">
+					<button type="button" class="red-gradient" id="button-student-area">
 						Área do estudante
 					</button>
 				</section>
 			</div>
 		</header>
 
+		<!-- NAV -------------------------------------------------------------------------------->
+
+		<nav
+			class="navbar navbar-expand-lg navbar-dark sticky-top"
+			id="main-navbar"
+		>
+			<div class="container-fluid" id="navbar-container-flex">
+				<a class="navbar-brand" href="index.html">
+					<img
+						id="logo-unisignorelli-navbar"
+						src="img\LOGOS-CENTRO-UNIVERSITÁRIO - 02-12-2021 - 2.png"
+						alt="Logo Centro Universitário Signorelli"
+					/>
+				</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#"
+								>Graduação Presencial</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#"
+								>Graduação EAD</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#"
+								>Pós-Graduação EAD</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">
+								Cursos livres</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">
+								Institucional</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">
+								Seja parceiro</a
+							>
+						</li>
+					</ul>
+					<form classs="d-flex">
+						<input
+							class="form-control me-2"
+							type="search"
+							placeholder="Buscar curso"
+							aria-label="Search"
+						/>
+						<button class="btn btn-danger" type="submit">
+							<img src="icons/icons8-search-24.png" alt="" />
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+
+		<!-- MAIN ---------------------------------------------------------------------------- -->
+
+		<main>
+			<!-- CARROSSEL------------------------------------------------------------------------ -->
+
+			<div
+				id="carouselExampleIndicators"
+				class="carousel slide"
+				data-bs-ride="carousel"
+			>
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="..." class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="..." class="d-block w-100" alt="..." />
+					</div>
+					<div class="carousel-item">
+						<img src="..." class="d-block w-100" alt="..." />
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+			<!-- --------------------------------------------------------------------------------- -->
+		</main>
+
+		<!-- WHATSAPP BUTTON------------------------------------------------------------------ -->
+		<a
+			href="https://api.whatsapp.com/send?phone=5521964856792&text=Clique%20aqui%20para%20falar%20com%20um%20consultor."
+			class="float"
+			target="_blank"
+		>
+			<i class="fa fa-whatsapp my-float"></i>
+		</a>
+
 		<!-- --------------------------------------------------------------------------------- -->
+
 		<script
-			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 			crossorigin="anonymous"
 		></script>
 		<script src="" async defer></script>
