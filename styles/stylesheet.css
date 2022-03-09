@@ -73,6 +73,10 @@ cores sig {
 		max-width: 13rem;
 		margin: 1rem 0 1rem 0;
 	}
+
+	#navbarSupportedContent {
+		text-align: center;
+	}
 }
 
 /******************* Homepage Desktop ************************/
@@ -160,6 +164,10 @@ cores sig {
 }
 
 #navbar-container-flex {
+	display: flex;
+}
+
+#nav-search-bar {
 	display: flex;
 }
 
