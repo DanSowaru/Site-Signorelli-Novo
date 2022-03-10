@@ -31,10 +31,16 @@ button {
 cores sig {
 	color: #0d6efd;
 	color: #2e83ce;
-	color: #2a406e;
 	color: rgb(42, 64, 110);
-	color: #b02726;
 	color: rgb(176, 39, 38);
+}
+
+.signorelli-blue {
+	background-color: #2a406e;
+}
+
+.signorelli-red {
+	background-color: #b02726;
 }
 
 .red-gradient {
@@ -53,7 +59,9 @@ cores sig {
 	);
 }
 
+/************************************************************/
 /******************* Homepage Mobile ************************/
+/************************************************************/
 
 @media only screen and (max-width: 767px) {
 	.social-icon {
@@ -77,9 +85,24 @@ cores sig {
 	#navbarSupportedContent {
 		text-align: center;
 	}
-}
 
-/******************* Homepage Desktop ************************/
+	#abmes-section {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#abmes-img {
+		width: 100%;
+		height: auto;
+	}
+
+	.small-descritive-text-mobile {
+		font-size: smaller;
+	}
+}
+/************************************************************/
+/******************* Homepage Desktop ***********************/
+/************************************************************/
 
 @media only screen and (min-width: 768px) {
 	.desktop-hidden {
@@ -111,9 +134,28 @@ cores sig {
 	.nav-item {
 		margin: auto 0.5vw auto 0.5vw;
 	}
+
+	#abmes-section {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#abmes-img {
+		/* width: 25vw; */
+		width: 100%;
+	}
+
+	/* .small-descritive-text-mobile {
+		align-items: center;
+		justify-content: center;
+	} */
 }
 
-/******************* Homepage general ************************/
+/************************************************************/
+/******************* Homepage general ***********************/
+/************************************************************/
 
 #homepage-header {
 	background-color: black;
@@ -159,7 +201,6 @@ cores sig {
 }
 
 #main-navbar {
-	background-color: #2a406e;
 	display: flex;
 }
 
@@ -175,25 +216,28 @@ cores sig {
 	opacity: 0.6;
 }
 
-.float {
+.whatsapp-float {
 	position: fixed;
-	width: 60px;
-	height: 60px;
+	width: 100px;
+	height: 100px;
 	bottom: 40px;
 	right: 40px;
 	background-color: #25d366;
 	color: #fff;
 	border-radius: 50px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 70px;
 	box-shadow: 2px 2px 3px #999;
 	z-index: 100;
 }
 
-.float:visited {
+.whatsapp-float:visited {
 	color: #fff;
 }
 
 .my-float {
 	margin-top: 16px;
+}
+
+#main-footer {
 }
