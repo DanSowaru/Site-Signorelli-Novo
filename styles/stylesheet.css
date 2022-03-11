@@ -111,6 +111,8 @@ cores sig {
 
 	.social-icon {
 		font-size: 3rem;
+		margin-left: 1rem;
+		margin-right: 1rem;
 	}
 
 	#button-student-area {
@@ -240,4 +242,28 @@ cores sig {
 }
 
 #main-footer {
+}
+
+.margin-spacing {
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+/* FOOTER */
+#main-footer {
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+}
+
+#main-footer h4 {
+	color: white;
+}
+
+#main-footer a {
+	color: #b0b7f0;
+	text-decoration: none;
+}
+
+#main-footer li {
+	list-style-type: none;
 }
