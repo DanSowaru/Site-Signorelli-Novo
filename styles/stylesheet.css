@@ -78,8 +78,19 @@ cores sig {
 	}
 
 	#logo-unisignorelli-navbar {
-		max-width: 13rem;
-		margin: 1rem 0 1rem 0;
+		max-width: 5rem;
+	}
+
+	.navbar-toggler-icon {
+		font-size: 2rem;
+	}
+
+	.custom-toggler .navbar-toggler-icon {
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+	}
+
+	.custom-toggler.navbar-toggler {
+		border-color: rgb(255, 102, 203);
 	}
 
 	#navbarSupportedContent {
@@ -125,16 +136,23 @@ cores sig {
 	}
 
 	#logo-unisignorelli-navbar {
-		max-width: 18rem;
-		margin: 1rem 2vw 1rem 0;
+		max-width: 6vw;
+		margin-right: 1vw;
 	}
 
 	#header-container-flex {
 		height: 6vh;
 	}
 
+	.navbar-nav {
+		display: flex;
+		align-items: center;
+		flex-shrink: 4;
+	}
+
 	.nav-item {
 		margin: auto 0.5vw auto 0.5vw;
+		/* font-size: 1.1rem; */
 	}
 
 	#abmes-section {
@@ -147,6 +165,11 @@ cores sig {
 	#abmes-img {
 		/* width: 25vw; */
 		width: 100%;
+	}
+
+	#carrossel-and-form-section {
+		display: flex;
+		flex-wrap: nowrap;
 	}
 
 	/* .small-descritive-text-mobile {
@@ -241,12 +264,14 @@ cores sig {
 	margin-top: 16px;
 }
 
-#main-footer {
-}
-
 .margin-spacing {
 	margin-top: 8vh;
 	margin-bottom: 8vh;
+}
+
+/* CARROUSEL & FORM */
+
+#carrossel-and-form-section {
 }
 
 /* FOOTER */
@@ -254,20 +279,43 @@ cores sig {
 	padding-top: 8vh;
 	padding-bottom: 8vh;
 }
-
 #main-footer h4 {
 	color: white;
 }
 
-#main-footer a {
+.footer-links-list-solid,
+.footer-links-list a {
 	color: #b0b7f0;
 	text-decoration: none;
 }
 
-#main-footer a:hover {
+.footer-links-list a:hover {
 	opacity: 0.5;
 }
 
-#main-footer li {
+.footer-links-list li {
 	list-style-type: none;
+}
+
+.footer-links-list span {
+	color: #fff;
+}
+
+.border-link {
+	border: 1px;
+	border-style: solid;
+	border-color: #b02726;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	color: #b0b7f0;
+	text-decoration: none;
+}
+
+.border-link:hover,
+.border-link:hover a {
+	background-color: #b02726;
+	cursor: pointer;
+	color: #b0b7f0;
 }
