@@ -75,6 +75,7 @@ cores sig {
 
 	#button-student-area {
 		font-size: small;
+		padding: 50px;
 	}
 
 	#logo-unisignorelli-navbar {
@@ -97,14 +98,34 @@ cores sig {
 		text-align: center;
 	}
 
-	#abmes-section {
+	#homepage-leads-form {
+		padding: 4vw 10vw 4vw 10vw;
+	}
+
+	#quem-somos-texto {
+		text-align: center;
+	}
+
+	#quem-somos-video iframe {
+		min-height: 50vw;
+	}
+
+	#abmes-container {
 		display: flex;
 		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
 	}
 
 	#abmes-img {
 		width: 100%;
 		height: auto;
+	}
+
+	#abmes-text-container {
+		flex-shrink: 4;
+		max-width: 90%;
+		text-align: center;
 	}
 
 	.small-descritive-text-mobile {
@@ -116,6 +137,15 @@ cores sig {
 /************************************************************/
 
 @media only screen and (min-width: 768px) {
+	.descritive-text-title {
+		font-size: xx-large;
+	}
+
+	.descritive-text {
+		font-size: large;
+		text-align: center;
+	}
+
 	.desktop-hidden {
 		display: none;
 	}
@@ -172,10 +202,29 @@ cores sig {
 		flex-wrap: nowrap;
 	}
 
-	/* .small-descritive-text-mobile {
-		align-items: center;
+	#carrossel-container {
+		min-width: 60vw;
+	}
+
+	#quem-somos-container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#quem-somos-texto {
+		text-align: center;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
 		justify-content: center;
-	} */
+	}
+
+	#quem-somos-video {
+		min-height: 40vw;
+	}
+
+	#quem-somos-video iframe {
+	}
 }
 
 /************************************************************/
@@ -264,14 +313,31 @@ cores sig {
 	margin-top: 16px;
 }
 
-.margin-spacing {
+.margin-spacing-v {
 	margin-top: 8vh;
 	margin-bottom: 8vh;
+}
+
+.padding-spacing-h {
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 
 /* CARROUSEL & FORM */
 
 #carrossel-and-form-section {
+}
+
+#homepage-leads-form {
+	text-align: center;
+}
+
+#homepage-leads-form * {
+	min-width: 100%;
+	margin: 2px 0;
+}
+
+.matricula-form-container {
 }
 
 /* FOOTER */

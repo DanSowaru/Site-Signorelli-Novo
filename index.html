@@ -58,7 +58,7 @@
 					<span> <i class="fab fa-whatsapp"></i>(21) 96968 1125</span>
 				</section>
 				<section class="col-md-3 col" id="header-student-area">
-					<button type="button" class="red-gradient" id="button-student-area">
+					<button type="button" class="btn btn-danger" id="button-student-area">
 						Área do estudante
 					</button>
 				</section>
@@ -237,17 +237,56 @@
 				<!-- FORMULARIO ---------------------------------------------------------------------- -->
 				<!-- --------------------------------------------------------------------------------- -->
 
-				<div id="matricula-form-container">
+				<div id="matricula-form-container" clas>
 					<form action="" method="post">
-						<fieldset>
-							<legend>INSCRIÇÃO COM DESCONTO</legend>
-							<h4>QUER GANHAR UM MEGA DESCONTO EM NOSSOS CURSOS?</h4>
+						<fieldset id="homepage-leads-form">
+							<!-- <legend>INSCRIÇÃO COM DESCONTO</legend> -->
+							<h3>QUER GANHAR UM MEGA DESCONTO EM NOSSOS CURSOS?</h3>
 							<span>
 								Preencha seus dados abaixo AGORA que entraremos em contato com
 								você!
 							</span>
-							<label for="candidateName">Nome</label>
-							<input type="text" />
+							<br />
+							<br />
+							<label>Nome</label>
+							<input
+								type="nome"
+								name="id"
+								value=""
+								placeholder="Digite seu nome!"
+							/>
+							<br />
+							<label for="email">E-mail</label>
+							<input
+								type="email"
+								name="email"
+								value=""
+								placeholder="Digite seu e-mail!"
+							/>
+							<br />
+							<label for="phone">Telefone</label>
+							<input
+								type="phone"
+								name="phone"
+								value=""
+								placeholder="Digite seu ceular com DDD!"
+							/>
+							<br />
+							<label for="curso">Curso</label>
+							<input
+								type="text"
+								name="curso"
+								value=""
+								placeholder="Digite o curso desejado!"
+							/>
+							<br />
+							<button
+								type="button"
+								id="matricula-button"
+								class="btn btn-danger"
+							>
+								Matricule-se!
+							</button>
 						</fieldset>
 					</form>
 				</div>
@@ -257,12 +296,31 @@
 			<!-- QUEM SOMOS ---------------------------------------------------------------------- -->
 			<!-- --------------------------------------------------------------------------------- -->
 
-			<section id="quem-somos-section" class="container-fluid margin-spacing">
-				<div class="row">
-					<div id="quem-somos-texto" class="col">
-						<h4></h4>
+			<section id="quem-somos-section" class="container-fluid margin-spacing-v">
+				<div id="quem-somos-container" class="row">
+					<div id="quem-somos-texto" class="col-12 col-md-4">
+						<h3 class="descritive-text-title">
+							Centro Universitário Internacional Signorelli
+						</h3>
+						<br />
+						<p class="descritive-text">
+							FORMAÇÃO DE EXCELÊNCIA INTERNACIONAL AO SEU ALCANCE!
+						</p>
+						<p class="descritive-text">
+							Assista ao vídeo e saiba mais sobre o UNISIGNORELLI.
+						</p>
 					</div>
-					<div id="quem-somos-video" class="col"></div>
+					<div id="quem-somos-video" class="col-12 col-md-8">
+						<iframe
+							width="100%"
+							height="100%"
+							src="https://www.youtube.com/embed/uMfVPKNtUH4"
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						></iframe>
+					</div>
 				</div>
 			</section>
 
@@ -271,15 +329,21 @@
 			<!-- --------------------------------------------------------------------------------- -->
 
 			<section id="abmes-section">
-				<div class="row align-items-center">
-					<div class="col-md-4">
+				<div
+					id="abmes-container"
+					class="row align-items-center margin-spacing-v"
+				>
+					<div id="abmes-img-container" class="col-md-4">
 						<img
 							id="abmes-img"
 							src="img/SeloRS2021-2022.png"
 							alt="Selo Instituição Socialmente Responsável ABMES 2022"
 						/>
 					</div>
-					<div class="col-md-8 small-descritive-text-mobile">
+					<div
+						id="abmes-text-container"
+						class="col-md-8 small-descritive-text-mobile padding-spacing-h"
+					>
 						<h3>Responsabilidade Social</h3>
 						<p>
 							Mais um ano em que fomos contemplados com o Selo de Instituição de
@@ -293,6 +357,10 @@
 					</div>
 				</div>
 			</section>
+
+			<!-- --------------------------------------------------------------------------------- -->
+			<!-- ------------------------------------------------------------------ -->
+			<!-- --------------------------------------------------------------------------------- -->
 
 			<!-- --------------------------------------------------------------------------------- -->
 			<!-- WHATSAPP BUTTON------------------------------------------------------------------ -->
@@ -823,6 +891,7 @@
 						</ul>
 					</div>
 				</div>
+				<section id="credits">Site by Dan Soares @ Soaring Solutions</section>
 			</div>
 		</footer>
 
