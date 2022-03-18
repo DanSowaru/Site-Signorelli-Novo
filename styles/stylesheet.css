@@ -99,7 +99,11 @@ cores sig {
 	}
 
 	#homepage-leads-form {
-		padding: 4vw 10vw 4vw 10vw;
+		background-color: #870000;
+		margin: 4vw 6vw;
+		padding: 4vw 8vw;
+		border-radius: 2%;
+		color: #fff;
 	}
 
 	#quem-somos-texto {
@@ -185,6 +189,31 @@ cores sig {
 		/* font-size: 1.1rem; */
 	}
 
+	#carrossel-and-form-section {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	#carrossel-container {
+		min-width: 65vw;
+	}
+
+	#matricula-forma-container {
+		display: flex;
+		align-items: center;
+	}
+
+	#homepage-leads-form {
+		display: flex;
+		align-items: center;
+		position: relative;
+		background-color: #870000;
+		margin: 5% 2vw;
+		padding: 2vw 4vw;
+		min-height: 80%;
+		border-radius: 2%;
+		color: #fff;
+	}
 	#abmes-section {
 		display: flex;
 		flex-wrap: nowrap;
@@ -195,15 +224,6 @@ cores sig {
 	#abmes-img {
 		/* width: 25vw; */
 		width: 100%;
-	}
-
-	#carrossel-and-form-section {
-		display: flex;
-		flex-wrap: nowrap;
-	}
-
-	#carrossel-container {
-		min-width: 60vw;
 	}
 
 	#quem-somos-container {
@@ -224,6 +244,16 @@ cores sig {
 	}
 
 	#quem-somos-video iframe {
+	}
+}
+
+/************************************************************/
+/************* Homepage Desktop 1920x1080 *******************/
+/************************************************************/
+
+@media and (min-width: 1600px) {
+	* {
+		font-size: xx-large;
 	}
 }
 
