@@ -135,6 +135,10 @@ cores sig {
 	.small-descritive-text-mobile {
 		font-size: smaller;
 	}
+
+	.section-title {
+		text-align: center;
+	}
 }
 /************************************************************/
 /******************* Homepage Desktop ***********************/
@@ -414,4 +418,9 @@ cores sig {
 	background-color: #b02726;
 	cursor: pointer;
 	color: #b0b7f0;
+}
+
+.testimonial-image {
+	width: 20vw;
+	border-radius: 100%;
 }
