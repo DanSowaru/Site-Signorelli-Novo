@@ -57,11 +57,6 @@
 					</span>
 					<span> <i class="fab fa-whatsapp"></i>(21) 96968 1125</span>
 				</section>
-				<section class="col-md-3 col" id="header-student-area">
-					<button type="button" class="btn btn-danger" id="button-student-area">
-						Área do estudante
-					</button>
-				</section>
 			</div>
 		</header>
 
@@ -69,81 +64,102 @@
 		<!-- NAV -------------------------------------------------------------------------------->
 		<!-- --------------------------------------------------------------------------------- -->
 
-		<nav
-			class="navbar navbar-expand-lg navbar-dark sticky-top signorelli-blue"
-			id="main-navbar"
-		>
-			<div class="container-fluid" id="navbar-container-flex">
-				<a class="navbar-brand" href="index.html">
+		<nav class="navbar sticky-top signorelli-blue" id="main-navbar">
+			<div id="navbar-links-container" class="container-fluid">
+				<div id="logo-unisignorelli-navbar">
 					<img
-						id="logo-unisignorelli-navbar"
+						id="logo-unisignorelli"
 						src="img/LOGO_HP.png"
-						alt="Logo Centro Universitário Signorelli"
+						alt="Unisignorelli logo"
 					/>
-				</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#"
-								>Graduação Presencial</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#"
-								>Graduação EAD</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#"
-								>Pós-Graduação EAD</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">
-								Cursos Sequenciais</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">
-								Cursos livres</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">
-								Institucional</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#">
-								Seja parceiro</a
-							>
-						</li>
-					</ul>
-					<form id="nav-search-bar" classs="d-flex">
-						<input
-							class="form-control me-2"
-							type="search"
-							placeholder="Buscar curso"
-							aria-label="Search"
-						/>
-						<button class="btn btn-danger" type="submit">
-							<img src="icons/icons8-search-24.png" alt="" />
-						</button>
-					</form>
+				</div>
+
+				<div class="container-fluid" id="navbar-links">
+					<div id="navbar-row" class="row">
+						<div class="col">
+							<a class="" aria-current="page" href="#">Graduação Presencial</a>
+							<a class="" aria-current="page" href="#">Graduação EAD</a>
+							<a class="" aria-current="page" href="#">Pós-Graduação EAD</a>
+						</div>
+						<div class="col">
+							<a class="" aria-current="page" href="#">Cursos livres</a>
+							<a class="" aria-current="page" href="#">Cursos Sequenciais</a>
+							<a class="" aria-current="page" href="#">Institucional</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="navbar-red-buttons" class="col">
+					<button type="button" class="btn btn-danger navbar-button">
+						Área do estudante
+					</button>
+
+					<button type="button" class="btn btn-danger navbar-button">
+						Seja parceiro
+					</button>
 				</div>
 			</div>
+			<form id="nav-search-bar" classs="d-flex">
+				<input
+					class="form-control me-2"
+					type="search"
+					placeholder="Buscar curso"
+					aria-label="Search"
+				/>
+				<button id="search-button" class="btn btn-danger" type="submit">
+					<img src="icons/icons8-search-24.png" alt="" />
+				</button>
+			</form>
 		</nav>
+
+		<!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#"
+					>Graduação Presencial</a
+				>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#"
+					>Graduação EAD</a
+				>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#"
+					>Pós-Graduação EAD</a
+				>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">
+					Cursos Sequenciais</a
+				>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">
+					Cursos livres</a
+				>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">
+					Institucional</a
+				>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link active" aria-current="page" href="#">
+					Seja parceiro</a
+				>
+			</li>
+		</ul>
+		<form id="nav-search-bar" classs="d-flex">
+			<input
+				class="form-control me-2"
+				type="search"
+				placeholder="Buscar curso"
+				aria-label="Search"
+			/>
+			<button class="btn btn-danger" type="submit">
+				<img src="icons/icons8-search-24.png" alt="" />
+			</button>
+		</form> -->
 
 		<!-- --------------------------------------------------------------------------------- -->
 		<!-- MAIN ---------------------------------------------------------------------------- -->

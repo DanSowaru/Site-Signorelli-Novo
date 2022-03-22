@@ -64,40 +64,67 @@ cores sig {
 /************************************************************/
 
 @media only screen and (max-width: 767px) {
+	/* HEADER */
 	.social-icon {
 		font-size: 2rem;
 		flex-shrink: 3;
 	}
 
-	.mobile-hidden {
-		display: none;
+	/* NAVBAR */
+
+	#logo-unisignorelli {
+		max-width: 15vw;
 	}
 
-	#button-student-area {
-		font-size: small;
-		padding: 50px;
+	#navbar-links-container {
+		display: flex;
+		padding: 1vw;
+		margin: 0;
 	}
 
-	#logo-unisignorelli-navbar {
-		max-width: 5rem;
+	#navbar-links-container {
+		display: flex;
+		flex-wrap: nowrap;
 	}
 
-	.navbar-toggler-icon {
-		font-size: 2rem;
+	#navbar-links {
 	}
 
-	.custom-toggler .navbar-toggler-icon {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-	}
-
-	.custom-toggler.navbar-toggler {
-		border-color: rgb(255, 102, 203);
-	}
-
-	#navbarSupportedContent {
+	#navbar-row a {
+		color: #fff;
+		min-height: 50%;
+		font-size: 0.65rem;
+		text-decoration: none;
 		text-align: center;
+		display: block;
+		align-items: center;
+		padding: 0;
+		margin: 0;
 	}
 
+	#navbar-row .col {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		padding: 0.1rem;
+	}
+
+	#navbar-red-buttons {
+	}
+
+	#nav-search-bar {
+		margin: 0.5rem 0.3rem;
+		width: 100%;
+	}
+
+	.navbar-button {
+		font-size: small;
+		padding: 0.2rem;
+		width: 100%;
+		margin: 0.2rem 0;
+	}
+
+	/* MAIN-FORM */
 	#homepage-leads-form {
 		background-color: #870000;
 		margin: 4vw 6vw;
@@ -136,8 +163,12 @@ cores sig {
 		font-size: smaller;
 	}
 
+	/* GENERAL VARIABLES */
 	.section-title {
 		text-align: center;
+	}
+	.mobile-hidden {
+		display: none;
 	}
 }
 /************************************************************/
@@ -145,18 +176,7 @@ cores sig {
 /************************************************************/
 
 @media only screen and (min-width: 768px) {
-	.descritive-text-title {
-		font-size: xx-large;
-	}
-
-	.descritive-text {
-		font-size: large;
-		text-align: center;
-	}
-
-	.desktop-hidden {
-		display: none;
-	}
+	/* HEADER */
 
 	.social-icon {
 		font-size: 3rem;
@@ -164,28 +184,67 @@ cores sig {
 		margin-right: 1rem;
 	}
 
-	#button-student-area {
-		height: 3rem;
-	}
-
 	#header-contact-phones {
 		display: flex;
 		justify-content: space-evenly;
-	}
-
-	#logo-unisignorelli-navbar {
-		max-width: 6vw;
-		margin-right: 1vw;
 	}
 
 	#header-container-flex {
 		height: 6vh;
 	}
 
-	.navbar-nav {
+	/* NAVBAR */
+
+	#logo-unisignorelli {
+		max-width: 7vw;
+		margin-right: 1vw;
+	}
+
+	#navbar-links-container {
 		display: flex;
+		padding: 1vw;
+		margin: 0;
+	}
+
+	#navbar-links-container {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	#navbar-links {
+	}
+
+	#navbar-row a {
+		color: #fff;
+		min-height: 100%;
+		font-size: 1.2rem;
+		text-decoration: none;
+		text-align: center;
+		display: block;
 		align-items: center;
-		flex-shrink: 4;
+		padding: 0;
+		margin: 0;
+	}
+
+	#navbar-row .col {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding: 0.1rem;
+	}
+
+	#navbar-red-buttons {
+	}
+
+	#nav-search-bar {
+		margin: 0.5rem 0.3rem;
+		width: 100%;
+	}
+
+	.navbar-button {
+		padding: 0.2rem;
+		width: 100%;
+		margin: 0.2rem 0;
 	}
 
 	.nav-item {
@@ -218,6 +277,7 @@ cores sig {
 		border-radius: 2%;
 		color: #fff;
 	}
+
 	#abmes-section {
 		display: flex;
 		flex-wrap: nowrap;
@@ -249,15 +309,26 @@ cores sig {
 
 	#quem-somos-video iframe {
 	}
+
+	.desktop-hidden {
+		display: none;
+	}
+	.descritive-text-title {
+		font-size: xx-large;
+	}
+	.descritive-text {
+		font-size: large;
+		text-align: center;
+	}
 }
 
 /************************************************************/
 /************* Homepage Desktop 1920x1080 *******************/
 /************************************************************/
 
-@media and (min-width: 1600px) {
+@media (min-width: 1600px) {
 	* {
-		font-size: xx-large;
+		font-size: large;
 	}
 }
 
@@ -284,9 +355,14 @@ cores sig {
 	justify-content: flex-start;
 }
 
-#header-student-area {
+#navbar-red-buttons {
 	display: flex;
 	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+#navbar-red-buttons button {
+	min-width: 100%;
 }
 
 .social-icon {
