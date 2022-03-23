@@ -14,10 +14,10 @@
 			src="https://kit.fontawesome.com/1ee9f6a63a.js"
 			crossorigin="anonymous"
 		></script>
-		<link
+		<!-- <link
 			rel="stylesheet"
 			href="icons\fontawesome-free-6.0.0-web\cssfontawesome.min.css"
-		/>
+		/> -->
 
 		<link
 			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -31,8 +31,8 @@
 	<body>
 		<!--[if lt IE 7]>
 			<p class="browsehappy">
-				Você está usando um navegador <strong>antigo</strong> browser. Please
-				<a href="#">upgrade your browser</a> to improve your experience.
+				Você está usando um navegador <strong>antigo</strong>. Por favor,
+				<a href="#">atualizes seu navegador</a> para melhorar sua experiência.
 			</p>
 		<![endif]-->
 
@@ -47,15 +47,24 @@
 					<a href=""><i class="social-icon fab fa-youtube-square"></i></a>
 					<a href=""><i class="social-icon fab fa-instagram-square"></i></a>
 					<a href=""><i class="social-icon fab fa-linkedin"></i></a>
-					<a href=""
-						><i class="social-icon desktop-hidden fab fa-whatsapp-square"></i
-					></a>
 				</section>
-				<section class="mobile-hidden col-md-6" id="header-contact-phones">
+				<section class="mobile-hidden col-md-9" id="header-contact-phones">
 					<span>
 						Fale com a Signorelli <i class="fas fa-phone"></i> (21) 3312 3000
 					</span>
 					<span> <i class="fab fa-whatsapp"></i>(21) 96968 1125</span>
+					<span>
+						<i class="fas fa-envelope"></i>
+						relacionamento@signorell.edu.br</span
+					>
+				</section>
+				<section
+					class="desktop-hidden col-6 container"
+					id="header-social-contacts"
+				>
+					<a href=""><i class="social-icon fab fa-whatsapp-square"></i></a>
+					<a href=""><i class="social-icon fas fa-phone-square"></i></a>
+					<a href=""><i class="social-icon fas fa-envelope-square"></i></a>
 				</section>
 			</div>
 		</header>
@@ -76,12 +85,12 @@
 
 				<div class="container-fluid" id="navbar-links">
 					<div id="navbar-row" class="row">
-						<div class="col">
+						<div class="col col-md-6">
 							<a class="" aria-current="page" href="#">Graduação Presencial</a>
 							<a class="" aria-current="page" href="#">Graduação EAD</a>
 							<a class="" aria-current="page" href="#">Pós-Graduação EAD</a>
 						</div>
-						<div class="col">
+						<div class="col col-md-5">
 							<a class="" aria-current="page" href="#">Cursos livres</a>
 							<a class="" aria-current="page" href="#">Cursos Sequenciais</a>
 							<a class="" aria-current="page" href="#">Institucional</a>
@@ -111,55 +120,6 @@
 				</button>
 			</form>
 		</nav>
-
-		<!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-			<li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#"
-					>Graduação Presencial</a
-				>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#"
-					>Graduação EAD</a
-				>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#"
-					>Pós-Graduação EAD</a
-				>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#">
-					Cursos Sequenciais</a
-				>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#">
-					Cursos livres</a
-				>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#">
-					Institucional</a
-				>
-			</li>
-			<li class="nav-item">
-				<a class="nav-link active" aria-current="page" href="#">
-					Seja parceiro</a
-				>
-			</li>
-		</ul>
-		<form id="nav-search-bar" classs="d-flex">
-			<input
-				class="form-control me-2"
-				type="search"
-				placeholder="Buscar curso"
-				aria-label="Search"
-			/>
-			<button class="btn btn-danger" type="submit">
-				<img src="icons/icons8-search-24.png" alt="" />
-			</button>
-		</form> -->
 
 		<!-- --------------------------------------------------------------------------------- -->
 		<!-- MAIN ---------------------------------------------------------------------------- -->
@@ -257,13 +217,13 @@
 					<form id="homepage-leads-form" action="" method="post">
 						<fieldset>
 							<!-- <legend>INSCRIÇÃO COM DESCONTO</legend> -->
-							<h3>QUER GANHAR UM MEGA DESCONTO EM NOSSOS CURSOS?</h3>
+							<h4>QUER GANHAR UM MEGA DESCONTO EM NOSSOS CURSOS?</h4>
 							<span>
 								Preencha seus dados abaixo AGORA que entraremos em contato com
 								você!
 							</span>
-							<br />
-							<br />
+							<br /><br />
+
 							<label>Nome</label>
 							<input
 								type="nome"
@@ -316,9 +276,14 @@
 			<section id="quem-somos-section" class="container-fluid margin-spacing-v">
 				<div id="quem-somos-container" class="row">
 					<div id="quem-somos-texto" class="col-12 col-md-4">
-						<h3 class="descritive-text-title">
-							Centro Universitário Internacional Signorelli
-						</h3>
+						<h3 class="descritive-text-title">Quem Somos</h3>
+						<br />
+						<img
+							id="quem-somos-logo"
+							src="img/LOGOS-CENTRO-UNIVERSITÁRIO - 02-12-2021.png"
+							alt=""
+						/>
+						<br />
 						<br />
 						<p class="descritive-text">
 							<strong>
@@ -362,9 +327,9 @@
 					</div>
 					<div
 						id="abmes-text-container"
-						class="col-md-8 small-descritive-text-mobile padding-spacing-h"
+						class="col-md-8 descritive-text-mobile padding-spacing-h"
 					>
-						<h3>Responsabilidade Social</h3>
+						<h3 class="descritive-text-title">Responsabilidade Social</h3>
 						<p>
 							Mais um ano em que fomos contemplados com o Selo de Instituição de
 							Ensino Superior Socialmente Responsável, concedido pela Associação
@@ -384,6 +349,9 @@
 
 			<section id="faq-section">
 				<div class="accordion margin-spacing-v" id="faq-accordion">
+					<h3 class="descritive-text-title section-title">
+						Perguntas Frequentes
+					</h3>
 					<div class="accordion-item">
 						<h2 class="accordion-header" id="headingOne">
 							<button
@@ -468,124 +436,12 @@
 				</div>
 			</section>
 
-			<!-- <section id="testimonials-section">
-				<div
-					id="testimonials-carrossel"
-					class="carousel carousel-dark slide"
-					data-bs-ride="carousel"
-				>
-					<div class="carousel-indicators">
-						<button
-							type="button"
-							data-bs-target="#carouselExampleDark"
-							data-bs-slide-to="0"
-							class="active"
-							aria-current="true"
-							aria-label="Slide 1"
-						></button>
-						<button
-							type="button"
-							data-bs-target="#carouselExampleDark"
-							data-bs-slide-to="1"
-							aria-label="Slide 2"
-						></button>
-						<button
-							type="button"
-							data-bs-target="#carouselExampleDark"
-							data-bs-slide-to="2"
-							aria-label="Slide 3"
-						></button>
-					</div>
-					<div class="carousel-inner">
-						<div class="carousel-item active" data-bs-interval="10000">
-							<img
-								src="img/testimonials/testimonial-background.png"
-								class="d-block w-100"
-								alt="..."
-							/>
-							<div class="carousel-caption d-none d-md-block">
-								<img
-									class="testimonial-img"
-									src="img/testimonials/student1.jpg"
-									alt="aluna Maria José"
-								/>
-								<h5>Maria José</h5>
-								<p>
-									"Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-									Facere explicabo cupiditate alias accusamus voluptatibus
-									dolores libero necessitatibus, officiis exercitationem porro
-									sapiente eveniet consequuntur quis dignissimos, iste fugit.
-									At, adipisci. Dolorem!""
-								</p>
-							</div>
-						</div>
-						<div class="carousel-item" data-bs-interval="2000">
-							<img
-								src="img/testimonials/testimonial-background.png"
-								class="d-block w-100"
-								alt="..."
-							/>
-							<div class="carousel-caption d-none d-md-block">
-								<img
-									class="testimonial-img"
-									src="img/testimonials/student2.jpg"
-									alt="aluna Maria José"
-								/>
-								<h5>Carla Maria</h5>
-								<p>
-									"Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-									Facere explicabo cupiditate alias accusamus voluptatibus
-									dolores libero necessitatibus, officiis exercitationem porro
-									sapiente eveniet consequuntur quis dignissimos, iste fugit.
-									At, adipisci. Dolorem!""
-								</p>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img
-								src="img/testimonials/testimonial-background.png"
-								class="d-block w-100"
-								alt="..."
-							/>
-							<div class="carousel-caption d-none d-md-block">
-								<img
-									class="testimonial-img"
-									src="img/testimonials/student3.jpg"
-									alt="aluna Maria José"
-								/>
-								<h5>Fernanda Rosa</h5>
-								<p>
-									"Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-									Facere explicabo cupiditate alias accusamus voluptatibus
-									dolores libero necessitatibus, officiis exercitationem porro
-									sapiente eveniet consequuntur quis dignissimos, iste fugit.
-									At, adipisci. Dolorem!""
-								</p>
-							</div>
-						</div>
-					</div>
-					<button
-						class="carousel-control-prev"
-						type="button"
-						data-bs-target="#carouselExampleDark"
-						data-bs-slide="prev"
-					>
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Previous</span>
-					</button>
-					<button
-						class="carousel-control-next"
-						type="button"
-						data-bs-target="#carouselExampleDark"
-						data-bs-slide="next"
-					>
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Next</span>
-					</button>
-				</div>
-			</section> -->
+			<!-- --------------------------------------------------------------------------------- -->
+			<!-- TESTIMONIALS -------------------------------------------------------------------- -->
+			<!-- --------------------------------------------------------------------------------- -->
 
-			<section id="testimonials">
+			<!-- <section id="testimonials">
+				<h3 class="descritive-text-title section-title">Testemunhos</h3>
 				<div
 					id="carouselExampleIndicators"
 					class="carousel slide"
@@ -632,7 +488,6 @@
 								<em style="color: white">&nbsp Beverly, Illinois</em>
 							</div>
 
-							<!-- <img class="d-block w-100" src="..." alt="Second slide"> -->
 						</div>
 					</div>
 					<a
@@ -654,7 +509,7 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
-			</section>
+			</section> -->
 
 			<!-- --------------------------------------------------------------------------------- -->
 			<!-- WHATSAPP BUTTON------------------------------------------------------------------ -->
