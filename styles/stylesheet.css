@@ -532,3 +532,7 @@ cores sig {
 	text-align: center;
 	color: #031231;
 }
+
+img.w-100 {
+	max-width: 55vw;
+}
