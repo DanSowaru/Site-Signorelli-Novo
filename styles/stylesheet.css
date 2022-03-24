@@ -274,6 +274,7 @@ cores sig {
 
 	#carrossel-container {
 		min-width: 55vw;
+		max-width: 55vw;
 	}
 
 	/* FORM */
@@ -531,8 +532,4 @@ cores sig {
 	font-size: large;
 	text-align: center;
 	color: #031231;
-}
-
-img.w-100 {
-	max-width: 55vw;
 }
