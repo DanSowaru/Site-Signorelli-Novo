@@ -64,10 +64,21 @@ cores sig {
 /************************************************************/
 
 @media only screen and (max-width: 767px) {
+	.descritive-text-title {
+		font-size: 10vw;
+		color: #031231;
+	}
+
 	/* HEADER */
 	.social-icon {
 		font-size: 2rem;
-		flex-shrink: 3;
+		margin: 0 1vw;
+	}
+
+	#header-social-contacts {
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
 	}
 
 	/* NAVBAR */
@@ -133,6 +144,12 @@ cores sig {
 		color: #fff;
 	}
 
+	/* QUEM SOMOS */
+
+	#quem-somos-logo {
+		width: 90vw;
+	}
+
 	#quem-somos-texto {
 		text-align: center;
 	}
@@ -158,18 +175,6 @@ cores sig {
 		max-width: 90%;
 		text-align: center;
 	}
-
-	.small-descritive-text-mobile {
-		font-size: smaller;
-	}
-
-	/* GENERAL VARIABLES */
-	.section-title {
-		text-align: center;
-	}
-	.mobile-hidden {
-		display: none;
-	}
 }
 /************************************************************/
 /******************* Homepage Desktop ***********************/
@@ -178,10 +183,14 @@ cores sig {
 @media only screen and (min-width: 768px) {
 	/* HEADER */
 
+	.descritive-text-title {
+		font-size: 5vw;
+		color: #031231;
+	}
+
 	.social-icon {
 		font-size: 3rem;
-		margin-left: 1rem;
-		margin-right: 1rem;
+		margin: 0 1vw;
 	}
 
 	#header-contact-phones {
@@ -202,28 +211,31 @@ cores sig {
 
 	#navbar-links-container {
 		display: flex;
-		padding: 1vw;
 		margin: 0;
-	}
-
-	#navbar-links-container {
-		display: flex;
+		padding: 0 0.5vw;
 		flex-wrap: nowrap;
 	}
 
 	#navbar-links {
+		display: flex;
+		vertical-align: middle;
+		justify-content: space-around;
 	}
 
 	#navbar-row a {
 		color: #fff;
-		min-height: 100%;
-		font-size: 1.2rem;
+		font-size: 1.5vw;
 		text-decoration: none;
 		text-align: center;
 		display: block;
-		align-items: center;
 		padding: 0;
 		margin: 0;
+		justify-self: center;
+		align-self: center;
+	}
+
+	#navbar-row a:hover {
+		opacity: 0.5;
 	}
 
 	#navbar-row .col {
@@ -234,17 +246,18 @@ cores sig {
 	}
 
 	#navbar-red-buttons {
+		width: 10vw;
 	}
 
 	#nav-search-bar {
-		margin: 0.5rem 0.3rem;
+		margin: 0.5vw 1vw;
 		width: 100%;
 	}
 
 	.navbar-button {
 		padding: 0.2rem;
 		width: 100%;
-		margin: 0.2rem 0;
+		margin: 0.2rem 0.5rem;
 	}
 
 	.nav-item {
@@ -252,28 +265,32 @@ cores sig {
 		/* font-size: 1.1rem; */
 	}
 
+	/* CARROSSEL */
+
 	#carrossel-and-form-section {
 		display: flex;
 		flex-wrap: nowrap;
 	}
 
 	#carrossel-container {
-		min-width: 65vw;
+		min-width: 55vw;
 	}
 
-	#matricula-forma-container {
+	/* FORM */
+
+	#matricula-form-container {
 		display: flex;
 		align-items: center;
 	}
 
 	#homepage-leads-form {
+		font-size: small;
 		display: flex;
 		align-items: center;
 		position: relative;
 		background-color: #870000;
-		margin: 5% 2vw;
-		padding: 2vw 4vw;
-		min-height: 80%;
+		margin: 1vw 4vw;
+		padding: 1vw 4vw;
 		border-radius: 2%;
 		color: #fff;
 	}
@@ -309,17 +326,6 @@ cores sig {
 
 	#quem-somos-video iframe {
 	}
-
-	.desktop-hidden {
-		display: none;
-	}
-	.descritive-text-title {
-		font-size: xx-large;
-	}
-	.descritive-text {
-		font-size: large;
-		text-align: center;
-	}
 }
 
 /************************************************************/
@@ -327,8 +333,11 @@ cores sig {
 /************************************************************/
 
 @media (min-width: 1600px) {
-	* {
-		font-size: large;
+	#homepage-header,
+	#homepage-leads-form,
+	#navbar-row,
+	.navbar-button {
+		font-size: x-large;
 	}
 }
 
@@ -337,7 +346,7 @@ cores sig {
 /************************************************************/
 
 #homepage-header {
-	background-color: black;
+	background-color: #031231;
 	color: white;
 }
 
@@ -380,7 +389,8 @@ cores sig {
 	/* margin: 5% 0 5% 0; */
 }
 
-.fab {
+.fab,
+.fas {
 	margin: 2px;
 }
 
@@ -499,4 +509,26 @@ cores sig {
 .testimonial-image {
 	width: 20vw;
 	border-radius: 100%;
+}
+
+/* TESTIMONIAL */
+
+/**************** GENERAL VARIABLES **************/
+.section-title {
+	text-align: center;
+}
+.mobile-hidden {
+	display: none;
+}
+.descritive-text {
+	font-size: smaller;
+}
+.desktop-hidden {
+	display: none;
+}
+
+.descritive-text {
+	font-size: large;
+	text-align: center;
+	color: #031231;
 }
