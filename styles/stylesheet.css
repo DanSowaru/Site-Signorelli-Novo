@@ -60,6 +60,8 @@ cores sig {
 }
 
 /************************************************************/
+/************************************************************/
+/************************************************************/
 /******************* Homepage Mobile ************************/
 /************************************************************/
 
@@ -67,6 +69,10 @@ cores sig {
 	.descritive-text-title {
 		font-size: 10vw;
 		color: #031231;
+	}
+
+	.responsive-background {
+		height: 100vw;
 	}
 
 	/* HEADER */
@@ -85,6 +91,7 @@ cores sig {
 
 	#logo-unisignorelli {
 		max-width: 15vw;
+		margin-left: 2vw;
 	}
 
 	#navbar-links-container {
@@ -175,19 +182,30 @@ cores sig {
 		max-width: 90%;
 		text-align: center;
 	}
+
+	/* TESTIMONIAL */
+	.testimonial-image {
+		width: 25vw;
+		border-radius: 100%;
+	}
 }
+/************************************************************/
+/************************************************************/
 /************************************************************/
 /******************* Homepage Desktop ***********************/
 /************************************************************/
 
 @media only screen and (min-width: 768px) {
-	/* HEADER */
-
 	.descritive-text-title {
 		font-size: 5vw;
 		color: #031231;
 	}
 
+	.responsive-background {
+		height: 50vh;
+	}
+
+	/* HEADER */
 	.social-icon {
 		font-size: 3rem;
 		margin: 0 1vw;
@@ -206,7 +224,7 @@ cores sig {
 
 	#logo-unisignorelli {
 		max-width: 7vw;
-		margin-right: 1vw;
+		margin: 0 1.5vw;
 	}
 
 	#navbar-links-container {
@@ -325,7 +343,10 @@ cores sig {
 		min-height: 40vw;
 	}
 
-	#quem-somos-video iframe {
+	/* TESTIMONIAL */
+	.testimonial-image {
+		width: 10vw;
+		border-radius: 100%;
 	}
 }
 
@@ -426,8 +447,10 @@ cores sig {
 	z-index: 100;
 }
 
-.whatsapp-float:visited {
+.whatsapp-float:visited,
+.whatsapp-float:hover {
 	color: #fff;
+	opacity: 0.95;
 }
 
 .my-float {
@@ -507,13 +530,6 @@ cores sig {
 	color: #b0b7f0;
 }
 
-.testimonial-image {
-	width: 20vw;
-	border-radius: 100%;
-}
-
-/* TESTIMONIAL */
-
 /**************** GENERAL VARIABLES **************/
 .section-title {
 	text-align: center;
@@ -534,4 +550,20 @@ cores sig {
 	color: #031231;
 }
 
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
 /* TEST AREA */
