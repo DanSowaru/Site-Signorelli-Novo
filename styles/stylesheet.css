@@ -158,16 +158,16 @@ cores sig {
 	/* QUEM SOMOS */
 
 	#quem-somos-logo {
-		width: 90vw;
+		width: 100%;
 	}
 
 	#quem-somos-texto {
 		text-align: center;
 	}
-
+	/* 
 	#quem-somos-video iframe {
 		max-height: 50vw;
-	}
+	} */
 
 	#abmes-container {
 		display: flex;
@@ -222,7 +222,7 @@ cores sig {
 	}
 
 	.responsive-background {
-		height: 35vw;
+		height: 30vw;
 	}
 
 	/* HEADER */
@@ -353,12 +353,15 @@ cores sig {
 	}
 
 	#quem-somos-section {
-		/* width: 90vw; */
 		display: flex;
 		flex-wrap: nowrap;
 		justify-content: center;
 		text-align: center;
 		text-align: justify;
+	}
+
+	#quem-somos-texto {
+		width: 40vw;
 	}
 
 	#quem-somos-container {
@@ -368,7 +371,7 @@ cores sig {
 	}
 
 	#quem-somos-logo {
-		max-width: 40vw;
+		min-width: 100%;
 	}
 
 	#quem-somos-texto {
@@ -383,7 +386,7 @@ cores sig {
 		display: flex;
 		justify-content: center;
 		min-height: 25vw;
-		max-width: 50vw;
+		max-width: 55vw;
 	}
 
 	/* PERGUNTAS-FREQUENTES */
