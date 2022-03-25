@@ -200,7 +200,7 @@ cores sig {
 		-khtml-box-shadow: 10px 10px 5px #ccc; */
 	}
 	.responsive-background {
-		min-height: 70vh;
+		min-height: 40vh;
 	}
 }
 /************************************************************/
