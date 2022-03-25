@@ -28,7 +28,6 @@ button {
 
 p {
 	color: #031231;
-	align: justify;
 }
 
 /******************* Template Colors ************************/
@@ -75,10 +74,9 @@ cores sig {
 		font-family: "Roboto", sans-serif;
 		font-weight: 900;
 		color: #031231;
-	}
-
-	.responsive-background {
-		height: 100vw;
+		font-size: 10vw;
+		margin: 2% 5% 1% 5%;
+		text-align: center;
 	}
 
 	/* HEADER */
@@ -168,7 +166,7 @@ cores sig {
 	}
 
 	#quem-somos-video iframe {
-		min-height: 50vw;
+		max-height: 50vw;
 	}
 
 	#abmes-container {
@@ -184,15 +182,25 @@ cores sig {
 	}
 
 	#abmes-text-container {
-		flex-shrink: 4;
-		max-width: 90%;
 		text-align: center;
 	}
 
 	/* TESTIMONIAL */
+
+	#testimonial-carrousel {
+		display: inline-block;
+		min-height: 120%;
+	}
 	.testimonial-image {
 		width: 25vw;
 		border-radius: 100%;
+		box-shadow: -1px -1px 0px 1px white, -4px -4px 0px 6px #b02726;
+		/* -moz-box-shadow: 10px 10px 5px #ccc;
+		-webkit-box-shadow: 10px 10px 5px #ccc;
+		-khtml-box-shadow: 10px 10px 5px #ccc; */
+	}
+	.responsive-background {
+		min-height: 100%;
 	}
 }
 /************************************************************/
@@ -209,8 +217,12 @@ cores sig {
 		color: #031231;
 	}
 
+	.descritive-text {
+		text-align: justify;
+	}
+
 	.responsive-background {
-		height: 50vh;
+		height: 45vh;
 	}
 
 	/* HEADER */
@@ -326,7 +338,13 @@ cores sig {
 		display: flex;
 		flex-wrap: nowrap;
 		justify-content: center;
-		align-items: center;
+		/* text-align: center; */
+		text-align: justify;
+		max-width: 90vw;
+	}
+
+	#abmes-text-container {
+		font-size: 1.2rem;
 	}
 
 	#abmes-img {
@@ -334,9 +352,23 @@ cores sig {
 		width: 100%;
 	}
 
+	#quem-somos-section {
+		/* width: 90vw; */
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		text-align: center;
+		text-align: justify;
+	}
+
 	#quem-somos-container {
 		display: flex;
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+
+	#quem-somos-logo {
+		max-width: 40vw;
 	}
 
 	#quem-somos-texto {
@@ -348,13 +380,23 @@ cores sig {
 	}
 
 	#quem-somos-video {
-		min-height: 40vw;
+		display: flex;
+		justify-content: center;
+		min-height: 25vw;
+		max-width: 50vw;
+	}
+
+	/* PERGUNTAS-FREQUENTES */
+	#faq-section {
+		max-width: 70vw;
 	}
 
 	/* TESTIMONIAL */
 	.testimonial-image {
 		width: 10vw;
+		margin: 1vw;
 		border-radius: 100%;
+		box-shadow: -1px -1px 0px 2px white, -5px -5px 0px 7px #b02726;
 	}
 }
 
@@ -363,6 +405,8 @@ cores sig {
 /************************************************************/
 
 @media (min-width: 1600px) {
+	p,
+	span,
 	#homepage-header,
 	#homepage-leads-form,
 	#navbar-row,
@@ -461,13 +505,20 @@ cores sig {
 	opacity: 0.95;
 }
 
+#headline-section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
 .my-float {
 	margin-top: 16px;
 }
 
 .margin-spacing-v {
-	margin-top: 8vh;
-	margin-bottom: 8vh;
+	margin: 5vw 0;
 }
 
 .padding-spacing-h {
