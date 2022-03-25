@@ -26,6 +26,11 @@ button {
 	cursor: pointer;
 }
 
+p {
+	color: #031231;
+	align: justify;
+}
+
 /******************* Template Colors ************************/
 
 cores sig {
@@ -67,7 +72,8 @@ cores sig {
 
 @media only screen and (max-width: 767px) {
 	.descritive-text-title {
-		font-size: 10vw;
+		font-family: "Roboto", sans-serif;
+		font-weight: 900;
 		color: #031231;
 	}
 
@@ -197,7 +203,9 @@ cores sig {
 
 @media only screen and (min-width: 768px) {
 	.descritive-text-title {
-		font-size: 5vw;
+		font-family: "Roboto", sans-serif;
+		font-weight: 900;
+		font-size: 4vw;
 		color: #031231;
 	}
 
