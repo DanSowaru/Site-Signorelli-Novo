@@ -81,29 +81,35 @@ cores sig {
 	text-align: right;
 }
 
+.column-flow {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+
 /* ***********************************************************/
 /* ***********************************************************/
 /* ******************* Element Styles ************************/
 /* ***********************************************************/
 /* ***********************************************************/
 
+#navbar-section {
+	position: fixed;
+	top: -3vw;
+	z-index: 1;
+	width: 100%;
+}
+
 #navbar-social-container {
 	display: flex;
 	justify-content: space-evenly;
 	background-color: #031231;
-	padding: 2vw 2vw;
+	padding: 5vw 2vw 2vw 2vw;
 }
 
 .social-icon {
-	font-size: 8vw;
+	font-size: 9vw;
 	color: white;
-}
-
-#navbar-section {
-	position: fixed;
-	top: 0;
-	z-index: 1;
-	width: 100%;
 }
 
 #logo-unisignorelli-navbar {
@@ -127,11 +133,14 @@ cores sig {
 	margin: 0 auto;
 }
 
-#navbar a {
+#main-links-container a {
 	color: white;
-	font-size: 4vw;
+	font-size: 3vw;
+	text-decoration: none;
+	padding: 1vw 0;
 }
 
 #main-links-container {
-	background-color: #2a406e !important;
+	background-color: #2a406e;
+	padding: 2vw 0;
 }
