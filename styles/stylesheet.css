@@ -120,8 +120,8 @@ cores sig {
 }
 
 #logo-unisignorelli {
-	max-width: 18vw;
-	min-width: 18vw;
+	max-width: 20vw;
+	min-width: 20vw;
 }
 
 #navbar {
@@ -135,6 +135,11 @@ cores sig {
 	margin: 0 auto;
 }
 
+#main-links-container {
+	background-color: #2a406e;
+	padding: 2vw 6vw;
+}
+
 #main-links-container a {
 	color: white;
 	font-size: 3vw;
@@ -142,24 +147,22 @@ cores sig {
 	padding: 1vw 0;
 }
 
-#main-links-container {
-	background-color: #2a406e;
-	padding: 2vw 0;
-}
-
 #red-buttons-container {
 	display: flex;
 	justify-content: center;
-	padding: 2vw 2vw;
+	padding: 2vw 0;
 }
 
 #red-buttons-container button {
 	margin: 0 1vw;
-	font-size: 3vw;
-	width: 30vw;
+	font-size: 2vw;
+	width: 25vw;
 	padding: 1vw 0;
 }
 
 #red-buttons-container button:hover {
-	opacity: 0.8;
+	opacity: 0.9;
+}
+
+.solid-navbar-background {
 }
