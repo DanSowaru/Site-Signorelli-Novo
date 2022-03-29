@@ -1,0 +1,631 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap");
+
+/******************* CSS RESET ******************************/
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	box-sizing: border-box;
+}
+
+body {
+	/* background: ;
+	color: ; */
+	-webkit-font-smoothing: antialiased;
+}
+
+body,
+span,
+input,
+button {
+	/* font-family: "Nunito", sans-serif; */
+	font-family: "Roboto", sans-serif;
+}
+
+button {
+	cursor: pointer;
+}
+
+p {
+	color: #031231;
+}
+
+/******************* Template Colors ************************/
+
+cores sig {
+	color: #0d6efd;
+	color: #2e83ce;
+	color: rgb(42, 64, 110);
+	color: rgb(176, 39, 38);
+}
+
+.signorelli-blue {
+	background-color: #2a406e;
+}
+
+.signorelli-red {
+	background-color: #b02726;
+}
+
+.red-gradient {
+	background-image: linear-gradient(
+		to bottom left,
+		rgb(176, 39, 38, 0.7),
+		rgb(176, 39, 38, 1)
+	);
+}
+
+.blue-gradient {
+	background-image: linear-gradient(
+		to bottom left,
+		rgb(42, 64, 110, 0.7),
+		rgb(42, 64, 110, 1)
+	);
+}
+
+/************************************************************/
+/************************************************************/
+/************************************************************/
+/******************* Homepage Mobile ************************/
+/************************************************************/
+
+@media only screen and (max-width: 767px) {
+	.descritive-text-title {
+		font-family: "Roboto", sans-serif;
+		font-weight: 900;
+		color: #031231;
+		font-size: 10vw;
+		margin: 2% 5% 1% 5%;
+		text-align: center;
+	}
+
+	/* HEADER */
+	.social-icon {
+		font-size: 2rem;
+		margin: 0 1vw;
+	}
+
+	#header-social-contacts {
+		display: flex;
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+
+	/* NAVBAR */
+
+	#logo-unisignorelli {
+		max-width: 15vw;
+		margin-left: 2vw;
+	}
+
+	#navbar-links-container {
+		display: flex;
+		padding: 1vw;
+		margin: 0;
+	}
+
+	#navbar-links-container {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	#navbar-links {
+	}
+
+	#navbar-row a {
+		color: #fff;
+		min-height: 50%;
+		font-size: 0.65rem;
+		text-decoration: none;
+		text-align: center;
+		display: block;
+		align-items: center;
+		padding: 0;
+		margin: 0;
+	}
+
+	#navbar-row .col {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		padding: 0.1rem;
+	}
+
+	#navbar-red-buttons {
+	}
+
+	#nav-search-bar {
+		margin: 0.5rem 0.3rem;
+		width: 100%;
+	}
+
+	.navbar-button {
+		font-size: small;
+		padding: 0.2rem;
+		width: 100%;
+		margin: 0.2rem 0;
+	}
+
+	/* MAIN-FORM */
+	#homepage-leads-form {
+		background-color: #870000;
+		margin: 4vw 6vw;
+		padding: 4vw 8vw;
+		border-radius: 2%;
+		color: #fff;
+	}
+
+	/* QUEM SOMOS */
+
+	#quem-somos-logo {
+		width: 100%;
+	}
+
+	#quem-somos-texto {
+		text-align: center;
+	}
+	/* 
+	#quem-somos-video iframe {
+		max-height: 50vw;
+	} */
+
+	#abmes-container {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#abmes-img {
+		width: 100%;
+		height: auto;
+	}
+
+	#abmes-text-container {
+		text-align: center;
+	}
+
+	/* TESTIMONIAL */
+
+	#testimonial-carrousel {
+		display: inline-block;
+		min-height: 120%;
+	}
+	.testimonial-image {
+		width: 25vw;
+		border-radius: 100%;
+		box-shadow: -1px -1px 0px 1px white, -4px -4px 0px 6px #b02726;
+		/* -moz-box-shadow: 10px 10px 5px #ccc;
+		-webkit-box-shadow: 10px 10px 5px #ccc;
+		-khtml-box-shadow: 10px 10px 5px #ccc; */
+	}
+	.responsive-background {
+		min-height: 40vh;
+	}
+}
+/************************************************************/
+/************************************************************/
+/************************************************************/
+/******************* Homepage Desktop ***********************/
+/************************************************************/
+
+@media only screen and (min-width: 768px) {
+	.descritive-text-title {
+		font-family: "Roboto", sans-serif;
+		font-weight: 900;
+		font-size: 4vw;
+		color: #031231;
+	}
+
+	.descritive-text {
+		text-align: justify;
+	}
+
+	.responsive-background {
+		height: 30vw;
+	}
+
+	/* HEADER */
+	.social-icon {
+		font-size: 3rem;
+		margin: 0 1vw;
+	}
+
+	#header-contact-phones {
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	#header-container-flex {
+		height: 6vh;
+	}
+
+	/* NAVBAR */
+
+	#logo-unisignorelli {
+		max-width: 7vw;
+		margin: 0 1.5vw;
+	}
+
+	#navbar-links-container {
+		display: flex;
+		margin: 0;
+		padding: 0 0.5vw;
+		flex-wrap: nowrap;
+	}
+
+	#navbar-links {
+		display: flex;
+		vertical-align: middle;
+		justify-content: space-around;
+	}
+
+	#navbar-row a {
+		color: #fff;
+		font-size: 1.5vw;
+		text-decoration: none;
+		text-align: center;
+		display: block;
+		padding: 0;
+		margin: 0;
+		justify-self: center;
+		align-self: center;
+	}
+
+	#navbar-row a:hover {
+		opacity: 0.5;
+	}
+
+	#navbar-row .col {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding: 0.1rem;
+	}
+
+	#navbar-red-buttons {
+		width: 10vw;
+	}
+
+	#nav-search-bar {
+		margin: 0.5vw 1vw;
+		width: 100%;
+	}
+
+	.navbar-button {
+		padding: 0.2rem;
+		width: 100%;
+		margin: 0.2rem 0.5rem;
+	}
+
+	.nav-item {
+		margin: auto 0.5vw auto 0.5vw;
+		/* font-size: 1.1rem; */
+	}
+
+	/* CARROSSEL */
+
+	#carrossel-and-form-section {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	#carrossel-container {
+		min-width: 55vw;
+		max-width: 55vw;
+	}
+
+	/* FORM */
+
+	#matricula-form-container {
+		display: flex;
+		align-items: center;
+	}
+
+	#homepage-leads-form {
+		font-size: small;
+		display: flex;
+		align-items: center;
+		position: relative;
+		background-color: #870000;
+		margin: 1vw 4vw;
+		padding: 1vw 4vw;
+		border-radius: 2%;
+		color: #fff;
+	}
+
+	#abmes-section {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		/* text-align: center; */
+		text-align: justify;
+		max-width: 90vw;
+	}
+
+	#abmes-text-container {
+		font-size: 1.2rem;
+	}
+
+	#abmes-img {
+		/* width: 25vw; */
+		width: 100%;
+	}
+
+	#quem-somos-section {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+		text-align: center;
+		text-align: justify;
+	}
+
+	#quem-somos-texto {
+		width: 40vw;
+	}
+
+	#quem-somos-container {
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: center;
+	}
+
+	#quem-somos-logo {
+		min-width: 100%;
+	}
+
+	#quem-somos-texto {
+		text-align: center;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	#quem-somos-video {
+		display: flex;
+		justify-content: center;
+		min-height: 25vw;
+		max-width: 55vw;
+	}
+
+	/* PERGUNTAS-FREQUENTES */
+	#faq-section {
+		max-width: 70vw;
+	}
+
+	/* TESTIMONIAL */
+	.testimonial-image {
+		width: 10vw;
+		margin: 1vw;
+		border-radius: 100%;
+		box-shadow: -1px -1px 0px 2px white, -5px -5px 0px 7px #b02726;
+	}
+}
+
+/************************************************************/
+/************* Homepage Desktop 1920x1080 *******************/
+/************************************************************/
+
+@media (min-width: 1600px) {
+	p,
+	span,
+	#homepage-header,
+	#homepage-leads-form,
+	#navbar-row,
+	.navbar-button {
+		font-size: x-large;
+	}
+}
+
+/************************************************************/
+/******************* Homepage general ***********************/
+/************************************************************/
+
+#homepage-header {
+	background-color: #031231;
+	color: white;
+}
+
+#header-container-flex {
+	display: flex;
+	min-height: 50px;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+
+#header-social-media {
+	flex-shrink: 3;
+	display: flex;
+	justify-content: flex-start;
+}
+
+#navbar-red-buttons {
+	display: flex;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+
+#navbar-red-buttons button {
+	min-width: 100%;
+}
+
+.social-icon {
+	color: white;
+}
+
+#button-student-area {
+	/* max-height: 2rem; */
+	/* flex-shrink: 4; */
+	border-radius: 0.5rem;
+	border: 0;
+	padding: 2%;
+	/* background-color: rgb(176, 39, 38); */
+	color: white;
+	/* margin: 5% 0 5% 0; */
+}
+
+.fab,
+.fas {
+	margin: 2px;
+}
+
+#main-navbar {
+	display: flex;
+}
+
+#navbar-container-flex {
+	display: flex;
+}
+
+#nav-search-bar {
+	display: flex;
+}
+
+.nav-item > a:hover {
+	opacity: 0.6;
+}
+
+.whatsapp-float {
+	position: fixed;
+	width: 100px;
+	height: 100px;
+	bottom: 40px;
+	right: 40px;
+	background-color: #25d366;
+	color: #fff;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 70px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 100;
+}
+
+.whatsapp-float:visited,
+.whatsapp-float:hover {
+	color: #fff;
+	opacity: 0.95;
+}
+
+#headline-section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.my-float {
+	margin-top: 16px;
+}
+
+.margin-spacing-v {
+	margin: 5vw 0;
+}
+
+.padding-spacing-h {
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+/* CARROUSEL & FORM */
+
+#carrossel-and-form-section {
+}
+
+#homepage-leads-form {
+	text-align: center;
+}
+
+#homepage-leads-form * {
+	min-width: 100%;
+	margin: 2px 0;
+}
+
+.matricula-form-container {
+}
+
+/* FOOTER */
+#main-footer {
+	padding-top: 8vh;
+	padding-bottom: 8vh;
+}
+#main-footer h4 {
+	color: white;
+}
+
+.footer-links-list-solid,
+.footer-links-list a {
+	color: #b0b7f0;
+	text-decoration: none;
+}
+
+.footer-links-list a:hover {
+	opacity: 0.5;
+}
+
+.footer-links-list li {
+	list-style-type: none;
+}
+
+.footer-links-list span {
+	color: #fff;
+}
+
+.border-link {
+	border: 1px;
+	border-style: solid;
+	border-color: #b02726;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 5px;
+	color: #b0b7f0;
+	text-decoration: none;
+}
+
+.border-link:hover,
+.border-link:hover a {
+	background-color: #b02726;
+	cursor: pointer;
+	color: #b0b7f0;
+}
+
+/**************** GENERAL VARIABLES **************/
+.section-title {
+	text-align: center;
+}
+.mobile-hidden {
+	display: none;
+}
+.descritive-text {
+	font-size: smaller;
+}
+.desktop-hidden {
+	display: none;
+}
+
+.descritive-text {
+	font-size: large;
+	text-align: center;
+	color: #031231;
+}
+
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/*
+/* TEST AREA */
