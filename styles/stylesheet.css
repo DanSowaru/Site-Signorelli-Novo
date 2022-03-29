@@ -115,11 +115,13 @@ cores sig {
 #logo-unisignorelli-navbar {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 }
 
 #logo-unisignorelli {
-	max-width: 100%;
+	max-width: 18vw;
+	min-width: 18vw;
 }
 
 #navbar {
@@ -143,4 +145,17 @@ cores sig {
 #main-links-container {
 	background-color: #2a406e;
 	padding: 2vw 0;
+}
+
+#red-buttons-container {
+	display: flex;
+	justify-content: center;
+	padding: 2vw 2vw;
+}
+
+#red-buttons-container button {
+	margin: 0 1vw;
+	font-size: 3vw;
+	width: 30vw;
+	padding: 1vw 0;
 }
