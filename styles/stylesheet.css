@@ -159,3 +159,7 @@ cores sig {
 	width: 30vw;
 	padding: 1vw 0;
 }
+
+#red-buttons-container button:hover {
+	opacity: 0.8;
+}
