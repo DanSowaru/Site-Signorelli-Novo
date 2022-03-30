@@ -508,16 +508,16 @@ cores sig {
 	opacity: 0.95;
 }
 
+.my-float {
+	margin-top: 16px;
+}
+
 #headline-section {
 	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-}
-
-.my-float {
-	margin-top: 16px;
 }
 
 .margin-spacing-v {
