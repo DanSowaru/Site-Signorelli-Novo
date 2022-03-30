@@ -9,9 +9,9 @@
 }
 
 body {
-	/* background: ;
-	color: ; */
 	-webkit-font-smoothing: antialiased;
+	position: relative;
+	top: -3vw;
 }
 
 body,
@@ -129,7 +129,7 @@ cores sig {
 	display: flex;
 	justify-content: space-evenly;
 	background-color: #031231;
-	padding: 5vw 2vw 2vw 2vw;
+	padding: 6vw 2vw 2vw 2vw;
 }
 
 .social-icon {
