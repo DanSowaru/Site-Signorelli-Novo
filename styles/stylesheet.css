@@ -105,7 +105,7 @@ cores sig {
 
 .solid-navbar-background {
 	min-width: 100%;
-	min-height: 65vw;
+	min-height: 70vw;
 	background-color: white;
 }
 
@@ -163,7 +163,7 @@ cores sig {
 	text-decoration: none;
 	padding: 3vw 0;
 	margin: 0;
-	font-weight: 700;
+	font-weight: 500;
 }
 
 #red-buttons-container {
@@ -187,7 +187,7 @@ cores sig {
 	opacity: 0.8;
 }
 
-/* MATRICULA FORM */
+/************** MATRICULA FORM */
 
 #form-accordion-button {
 	display: flex;
@@ -201,16 +201,21 @@ cores sig {
 	cursor: pointer;
 }
 
-#matricula-form-container {
+#lead-form-container {
 	text-align: center;
 	display: flex;
 }
-#matricula-form-container :is(fieldset, span, label) {
+#lead-form-container :is(fieldset, span, label) {
 	display: flex;
 	flex-flow: column nowrap;
 }
 
-#matricula-form {
+#lead-form-container legend {
+	font-size: 3vw;
+	font-weight: 400;
+}
+
+#lead-form {
 	font-size: small;
 	display: flex;
 	align-items: center;
