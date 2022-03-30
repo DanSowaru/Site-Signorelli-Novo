@@ -103,10 +103,16 @@ cores sig {
 /* ***********************************************************/
 /* ***********************************************************/
 
+.solid-navbar-background {
+	min-width: 100%;
+	min-height: 65vw;
+	background-color: white;
+}
+
 #navbar-section {
 	position: fixed;
 	top: -3vw;
-	z-index: 1;
+	z-index: 999;
 	width: 100%;
 	height: 60vw;
 }
@@ -168,9 +174,10 @@ cores sig {
 
 #red-buttons-container button {
 	margin: 0 1vw;
-	font-size: 2vw;
-	width: 25vw;
-	padding: 1vw 0;
+	font-size: 3vw;
+	font-weight: 300;
+	width: 30vw;
+	padding: 1vw 0vw;
 	background-color: #b02726;
 	color: white;
 }
@@ -178,12 +185,6 @@ cores sig {
 #red-buttons-container button:hover,
 #main-links-container a:hover {
 	opacity: 0.8;
-}
-
-.solid-navbar-background {
-	min-width: 100%;
-	min-height: 65vw;
-	background-color: white;
 }
 
 /* MATRICULA FORM */
@@ -194,10 +195,8 @@ cores sig {
 	align-items: center;
 	text-align: center;
 	width: 100%;
-	/* height: 20vw; */
 	background-color: #b02726;
 	color: white;
-	font-size: 3vw;
 	font-weight: 700;
 	cursor: pointer;
 }
