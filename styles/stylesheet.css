@@ -10,8 +10,6 @@
 
 body {
 	-webkit-font-smoothing: antialiased;
-	position: relative;
-	top: -3vw;
 }
 
 body,
@@ -97,11 +95,24 @@ cores sig {
 }
 
 .blink_me {
-	animation: blinker 10s linear infinite;
+	animation: blinker 5s linear infinite;
 }
 
 @keyframes blinker {
-	50% {
+	0% {
+		opacity: 1;
+	}
+
+	80% {
+		opacity: 1;
+	}
+	85% {
+		opacity: 0;
+	}
+	90% {
+		opacity: 1;
+	}
+	95% {
 		opacity: 0;
 	}
 }
@@ -120,7 +131,8 @@ cores sig {
 
 #navbar-section {
 	position: sticky;
-	top: 0vw;
+	transform: translateY(-2vw);
+	top: 0;
 	z-index: 999;
 	width: 100%;
 }
@@ -129,7 +141,11 @@ cores sig {
 	display: flex;
 	justify-content: space-evenly;
 	background-color: #031231;
-	padding: 6vw 2vw 2vw 2vw;
+	padding: 9vw 2vw 2vw 2vw;
+}
+
+:is(#navbar-social-container, #navbar, #navbar-section) {
+	margin: 0;
 }
 
 .social-icon {
