@@ -160,14 +160,54 @@ cores sig {
 	font-size: 2vw;
 	width: 25vw;
 	padding: 1vw 0;
+	background-color: #b02726;
+	color: white;
 }
 
-#red-buttons-container button:hover {
-	opacity: 0.9;
+#red-buttons-container button:hover,
+#main-links-container a:hover {
+	opacity: 0.8;
 }
 
 .solid-navbar-background {
 	min-width: 100%;
 	min-height: 65vw;
 	background-color: white;
+}
+
+/* MATRICULA FORM */
+
+#form-accordion-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	height: 20vw;
+	background-color: #b02726;
+	color: white;
+	font-size: 3vw;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+#matricula-form-container {
+	text-align: center;
+	display: flex;
+}
+#matricula-form-container :is(fieldset, span, label) {
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+#matricula-form {
+	font-size: small;
+	display: flex;
+	align-items: center;
+	position: relative;
+	background-color: #720000;
+	margin: 1vw 2vw;
+	padding: 2vw 4vw;
+	border-radius: 2%;
+	color: #fff;
 }

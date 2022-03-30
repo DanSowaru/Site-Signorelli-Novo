@@ -46,11 +46,15 @@
 				</div>
 				<div id="main-links-container" class="row">
 					<div class="col-5 column-flow align-left">
-						<a class="blink_me" aria-current="page" href="#"
-							>Graduação Presencial</a
+						<a class="" aria-current="page" href="#"
+							>▶&nbsp;Graduação&nbsp;Presencial</a
 						>
-						<a class="" aria-current="page" href="#">Graduação EAD</a>
-						<a class="" aria-current="page" href="#">Pós-Graduação EAD</a>
+						<a class="" aria-current="page" href="#"
+							>▶&nbsp;Graduação&nbsp;EAD</a
+						>
+						<a class="" aria-current="page" href="#"
+							>▶&nbsp;Pós-Graduação&nbsp;EAD</a
+						>
 					</div>
 					<div id="logo-unisignorelli-navbar" class="col-2">
 						<img
@@ -60,19 +64,23 @@
 						/>
 					</div>
 					<div class="col-5 column-flow align-right">
-						<a class="" aria-current="page" href="#">Cursos Sequenciais</a>
-						<a class="" aria-current="page" href="#">Cursos livres</a>
-						<a class="" aria-current="page" href="#">Institucional / MEC</a>
+						<a class="" aria-current="page" href="#"
+							>Cursos&nbsp;Sequenciais&nbsp;◀</a
+						>
+						<a class="" aria-current="page" href="#"
+							>Cursos&nbsp;livres&nbsp;◀</a
+						>
+						<a class="" aria-current="page" href="#"
+							>Institucional&nbsp;/&nbsp;MEC&nbsp;◀</a
+						>
 					</div>
 					<div id="red-buttons-container">
-						<button type="button" class="btn btn-danger navbar-button">
+						<button type="button" class="btn navbar-button">
 							Área do estudante
 						</button>
-						<button type="button" class="btn btn-danger navbar-button">
-							Quem Somos
-						</button>
+						<button type="button" class="btn navbar-button">Quem Somos</button>
 
-						<button type="button" class="btn btn-danger navbar-button">
+						<button type="button" class="btn navbar-button">
 							Seja parceiro
 						</button>
 					</div>
@@ -87,6 +95,7 @@
 				<div class="accordion-item">
 					<h2 class="accordion-header" id="headingOne">
 						<button
+							id="form-accordion-button"
 							class="accordion-button collapsed"
 							type="button"
 							data-bs-toggle="collapse"
@@ -94,7 +103,7 @@
 							aria-expanded="true"
 							aria-controls="collapseOne"
 						>
-							Quer ganhar uma BOLSA de até 100% ?
+							<h3>Quer ganhar uma BOLSA de até 100% ? Clique aqui!</h3>
 						</button>
 					</h2>
 					<div
@@ -104,10 +113,59 @@
 						data-bs-parent="#accordionExample"
 					>
 						<div class="accordion-body">
-							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-							Inventore, asperiores a. Porro adipisci doloremque temporibus
-							maxime corrupti natus beatae. Non in atque beatae quasi nam illum
-							rerum suscipit consequuntur illo.
+							<div id="matricula-form-container">
+								<form id="matricula-form" action="" method="post">
+									<fieldset>
+										<!-- <legend>INSCRIÇÃO COM DESCONTO</legend> -->
+										<span>
+											Preencha seus dados abaixo AGORA que entraremos em contato
+											com você!
+										</span>
+										<br />
+
+										<label>Nome</label>
+										<input
+											type="nome"
+											name="id"
+											value=""
+											placeholder="Digite seu nome!"
+										/>
+										<br />
+										<label for="email">E-mail</label>
+										<input
+											type="email"
+											name="email"
+											value=""
+											placeholder="Digite seu e-mail!"
+										/>
+										<br />
+										<label for="phone">Telefone</label>
+										<input
+											type="phone"
+											name="phone"
+											value=""
+											placeholder="Digite seu ceular com DDD!"
+										/>
+										<br />
+										<label for="curso">Curso</label>
+										<input
+											type="text"
+											name="curso"
+											value=""
+											placeholder="Digite o curso desejado!"
+										/>
+										<br />
+
+										<button
+											type="button"
+											id="matricula-button"
+											class="btn btn-warning"
+										>
+											Matricule-se!
+										</button>
+									</fieldset>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
