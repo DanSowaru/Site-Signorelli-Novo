@@ -1,3 +1,4 @@
+/******************* Template Fonts ************************/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap");
 
 /******************* CSS RESET ******************************/
@@ -94,8 +95,18 @@ cores sig {
 	justify-content: center;
 }
 
+.descritive-text-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 8vw;
+	color: #031231;
+	display: flex;
+	justify-content: center;
+}
+
+
 .blink_me {
-	animation: blinker 5s linear infinite;
+	animation: blinker 4s linear infinite;
 }
 
 @keyframes blinker {
@@ -213,6 +224,11 @@ cores sig {
 
 /************** MATRICULA FORM */
 
+#lead-form-section {
+	display: flex;
+	justify-content: center;
+}
+
 #form-accordion-button {
 	display: flex;
 	justify-content: center;
@@ -323,4 +339,19 @@ cores sig {
 	background-color: #b02726;
 	cursor: pointer;
 	color: #b0b7f0;
+}
+
+/****************************** CREDITS */
+
+#credits {
+	text-align: center;
+	color: white;
+	font-family: ;
+}
+
+/*************** Desktop adjustments ****/
+@media (min-width: 768px) {
+	#navbar-section {
+		position: relative;
+	}
 }
