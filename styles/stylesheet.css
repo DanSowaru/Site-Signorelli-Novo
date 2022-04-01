@@ -341,12 +341,37 @@ cores sig {
 	color: #b0b7f0;
 }
 
+/***************** DEPOIMENTOS */
+
+.depoimento {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	margin: 2vw;
+	padding: 2vw;
+	border-radius: 2%;
+	background-color: #efefef;
+	color: #2a406e;
+}
+
+.testimonial-image {
+	max-width: 20vw;
+	border-radius: 100%;
+	box-shadow: -1px -1px 0px 1px white, -4px -4px 0px 6px #b02726;
+	/* -moz-box-shadow: 10px 10px 5px #ccc;
+	-webkit-box-shadow: 10px 10px 5px #ccc;
+	-khtml-box-shadow: 10px 10px 5px #ccc; */
+}
+
+
 /****************************** CREDITS */
 
 #credits {
 	text-align: center;
 	color: white;
-	font-family: ;
+	/* font-family: ; */
 }
 
 /*************** Desktop adjustments ****/
