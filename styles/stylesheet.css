@@ -228,14 +228,6 @@ cores sig {
 	font-size: 1.4rem;
 }
 
-#nav-search-bar {
-	display: flex;
-}
-
-#nav-search-bar * {
-	margin: 1vw;
-}
-
 
 #main-links-container {
 	background-color: #2a406e;
@@ -261,7 +253,7 @@ cores sig {
 	margin: 0 1vw;
 	font-size: 3vw;
 	font-weight: 300;
-	width: 30vw;
+	width: 22vw;
 	padding: 1vw 0vw;
 	background-color: #b02726;
 	color: white;
