@@ -209,8 +209,8 @@ cores sig {
 }
 
 #logo-unisignorelli {
-	max-width: 20vw;
-	min-width: 20vw;
+	max-width: 18vw;
+	min-width: 18vw;
 }
 
 #navbar {
@@ -225,7 +225,15 @@ cores sig {
 }
 
 .navbar-toggler-icon {
-	font-size: 2rem;
+	font-size: 1.4rem;
+}
+
+#nav-search-bar {
+	display: flex;
+}
+
+#nav-search-bar * {
+	margin: 1vw;
 }
 
 
