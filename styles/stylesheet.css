@@ -1,5 +1,5 @@
 /******************* Template Fonts ************************/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;500;600;700;900&family=Roboto:wght@100;300;500;700;900&display=swap');
 
 /******************* CSS RESET ******************************/
 * {
@@ -28,6 +28,17 @@ button {
 p {
 	color: #031231;
 }
+
+/********************* Cheat Sheet **************************/
+
+animation-shorthand {
+	animation-name: example;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+  }
 
 /******************* Template Colors ************************/
 
@@ -173,8 +184,8 @@ cores sig {
 }
 
 #logo-unisignorelli {
-	max-width: 22vw;
-	min-width: 22vw;
+	max-width: 20vw;
+	min-width: 20vw;
 }
 
 #navbar {
@@ -190,7 +201,7 @@ cores sig {
 
 #main-links-container {
 	background-color: #2a406e;
-	padding: 2vw 5vw;
+	padding: 2vw 1vw;
 }
 
 #main-links-container a {
@@ -397,7 +408,7 @@ cores sig {
 		height:220px;
 		position: absolute;
 		z-index:1;
-		animation: slide 1s infinite 3s;
+		animation: slide 8s infinite 1s;
 		background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(128,186,232,0) 99%, rgba(125,185,232,0) 100%); /* FF3.6+ */
 		background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,0.8)), color-stop(99%,rgba(128,186,232,0)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
 		background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
@@ -408,8 +419,8 @@ cores sig {
 	  }
 
 	  @keyframes slide {
-		0% {transform:translateX(-150%);}
-		100% {transform:translateX(100%);}
+		0% {transform:translateX(-250%);}
+		10% {transform:translateX(100%);}
 	}
 	
 	/****************************** CREDITS */
@@ -417,7 +428,7 @@ cores sig {
 #credits {
 	text-align: center;
 	color: white;
-	/* font-family: ; */
+	font-family: 'Nunito', sans-serif;
 }
 
 /*************** Desktop adjustments ****/

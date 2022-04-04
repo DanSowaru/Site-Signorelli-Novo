@@ -6,6 +6,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
+		<meta lang="pt" content="pt" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<title>
 			Unisignorelli - Cursos de Graduação e Pós-Graduação, Presencial e Digital
@@ -14,13 +15,25 @@
 		<meta name="description" content="" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link
-		href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-		rel="stylesheet"
-		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-		crossorigin="anonymous"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+			crossorigin="anonymous"
 		/>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+			integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+			integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
 		<link rel="stylesheet" href="styles/stylesheet.css" />
 		<link rel="icon" href="img/LOGO-NOCIRCLE.png" />
 	</head>
@@ -31,7 +44,6 @@
 
 		<!-- <div class="solid-navbar-background"></div> -->
 
-		
 		<section id="navbar-section" class="screen-width">
 			<nav id="navbar" class="nav navbar">
 				<div id="navbar-social-container" class="container-fluid">
@@ -42,6 +54,30 @@
 					<a href=""><i class="social-icon fab fa-whatsapp-square"></i></a>
 					<a href=""><i class="social-icon fas fa-phone-square"></i></a>
 					<a href=""><i class="social-icon fas fa-envelope-square"></i></a>
+
+					<a
+						class="social-icon btn"
+						data-bs-toggle="collapse"
+						href="#collapseExample"
+						role="button"
+						aria-expanded="false"
+						aria-controls="collapseExample"
+					>
+						<i class="fa-solid fa-bars"></i>
+					</a>
+					<div class="collapse" id="collapseExample">
+						<div class="card card-body">
+							<a class="" aria-current="page" href="#"
+								>▶&nbsp;Graduação&nbsp;Presencial</a
+							>
+							<a class="" aria-current="page" href="#"
+								>▶&nbsp;Graduação&nbsp;EAD</a
+							>
+							<a class="" aria-current="page" href="#"
+								>▶&nbsp;Pós&nbsp;-&nbsp;Graduação&nbsp;EAD</a
+							>
+						</div>
+					</div>
 				</div>
 				<div id="main-links-container" class="row">
 					<div class="col-5 column-flow align-left">
@@ -49,10 +85,13 @@
 							>▶&nbsp;Graduação&nbsp;Presencial</a
 						>
 						<a class="" aria-current="page" href="#"
-							>▶&nbsp;Graduação&nbsp;EAD</a
+							>▶&nbsp;Pós&nbsp;-&nbsp;Graduação&nbsp;Presencial</a
 						>
 						<a class="" aria-current="page" href="#"
-							>▶&nbsp;Pós&nbsp;-&nbsp;Graduação&nbsp;EAD</a
+							>▶&nbsp;MBA&nbsp;Presencial</a
+						>
+						<a class="" aria-current="page" href="#"
+							>▶&nbsp;Sequencial&nbsp;Digital</a
 						>
 					</div>
 					<div id="logo-unisignorelli-navbar" class="col-2">
@@ -63,14 +102,13 @@
 						/>
 					</div>
 					<div class="col-5 column-flow align-right">
+						<a class="" aria-current="page" href="#">Graduação&nbsp;Digital◀</a>
 						<a class="" aria-current="page" href="#"
-							>Cursos&nbsp;Sequenciais&nbsp;◀</a
+							>Pós&nbsp;-&nbsp;Graduação&nbsp;Digital◀</a
 						>
+						<a class="" aria-current="page" href="#">MBA&nbsp;Digital&nbsp;◀</a>
 						<a class="" aria-current="page" href="#"
-							>Cursos&nbsp;livres&nbsp;◀</a
-						>
-						<a class="" aria-current="page" href="#"
-							>Institucional&nbsp;/&nbsp;MEC&nbsp;◀</a
+							>Extensão&nbsp;Digital&nbsp;◀</a
 						>
 					</div>
 					<div id="red-buttons-container">
@@ -149,10 +187,7 @@
 						data-bs-target="#carouselExampleIndicators"
 						data-bs-slide="prev"
 					>
-						<span
-							class="carousel-control-prev-icon"
-							aria-hidden="true"
-						></span>
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 						<span class="visually-hidden">Previous</span>
 					</button>
 					<button
@@ -161,58 +196,60 @@
 						data-bs-target="#carouselExampleIndicators"
 						data-bs-slide="next"
 					>
-						<span
-							class="carousel-control-next-icon"
-							aria-hidden="true"
-						></span>
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
 						<span class="visually-hidden">Next</span>
 					</button>
 				</div>
 			</div>
+		</section>
 
-			<!-- --------------------------------------------------------------------------------- -->
-			<!-- MENU DEGUSTAÇÃO ---------------------------------------------------------------------- -->
-			<!-- --------------------------------------------------------------------------------- -->
+		<!-- --------------------------------------------------------------------------------- -->
+		<!-- MENU DEGUSTAÇÃO ---------------------------------------------------------------------- -->
+		<!-- --------------------------------------------------------------------------------- -->
 
-			<section id="most-sold-carousel" class="margin-spacing-v">
-				<h3  class="descritive-text-title">
-					Mais vendidos
-				</h3>
-				<div class="owl-carousel owl-theme">
-					<div class="item">
-						<a href="">
-							<img src="img/cursos-graduacao-ead/bacharelado/administracao.png" alt="">
-						</a>
-					</div>
-					<div class="item">
-						<a href="">
-							<img src="img/cursos-graduacao-ead/licenciatura/pedagogia.png" alt="">
-						</a>
-					</div>
-					<div class="item">
-						<a href="">
-							<img src="img/cursos-graduacao-ead/segunda-lienciatura.png" alt="">
-						</a>
-					</div>
-					<div class="item">
-						<a href="">
-							<img src="img/cursos-graduacao-presencial/gestao-rh.png" alt="">
-						</a>
-					</div>
-					<div class="item">
-						<a href="">
-							<img src="img/cursos-graduacao-presencial/direito.png" alt="">
-						</a>
-					</div>
+		<section id="most-sold-carousel" class="margin-spacing-v">
+			<h3 class="descritive-text-title">Mais vendidos</h3>
+			<div class="owl-carousel owl-theme">
+				<div class="item">
+					<a href="">
+						<img
+							src="img/cursos-graduacao-ead/bacharelado/administracao.png"
+							alt=""
+						/>
+					</a>
 				</div>
+				<div class="item">
+					<a href="">
+						<img
+							src="img/cursos-graduacao-ead/licenciatura/pedagogia.png"
+							alt=""
+						/>
+					</a>
+				</div>
+				<div class="item">
+					<a href="">
+						<img
+							src="img/cursos-graduacao-ead/segunda-lienciatura.png"
+							alt=""
+						/>
+					</a>
+				</div>
+				<div class="item">
+					<a href="">
+						<img src="img/cursos-graduacao-presencial/gestao-rh.png" alt="" />
+					</a>
+				</div>
+				<div class="item">
+					<a href="">
+						<img src="img/cursos-graduacao-presencial/direito.png" alt="" />
+					</a>
+				</div>
+			</div>
+		</section>
 
-			</section>
-
-			<!-- --------------------------------------------------------------------------------- -->
-			<!-- FORMULARIO ---------------------------------------------------------------------- -->
-			<!-- --------------------------------------------------------------------------------- -->
-
-
+		<!-- --------------------------------------------------------------------------------- -->
+		<!-- FORMULARIO ---------------------------------------------------------------------- -->
+		<!-- --------------------------------------------------------------------------------- -->
 
 		<section id="lead-form-section" class="container margin-spacing-v">
 			<div class="accordion margin-spacing-v" id="faq-accordion">
@@ -227,7 +264,10 @@
 							aria-expanded="true"
 							aria-controls="collapseOne"
 						>
-							<h3 class="blink-animation-form">Quer ganhar uma BOLSA de até 100% ? <br> Clique aqui!</h3>
+							<p class="blink-animation-form">
+								Quer ganhar uma BOLSA de até 100% ? <br />
+								Clique aqui!
+							</p>
 						</button>
 					</h2>
 					<div
@@ -309,7 +349,7 @@
 					</a>
 				</div>
 			</div>
-
+		</section>
 
 		<!-- --------------------------------------------------------------------------------- -->
 		<!-- DEPOIMENTOS --------------------------------------------------------------------- -->
@@ -325,21 +365,18 @@
 				<div class="col-md-12">
 					<div class="owl-carousel owl-theme">
 						<div class="depoimento">
-								<img
-									class="depoimentos-image"
-									src="img/depoimentos/student7.jpg"
-									alt="foto aluna Joana D'Arc"
-								/>
-								<h5>
-									<b>
-										Joana Soares, Pedagogia
-									</b>
-								</h5>
-								<p>
-									"Aprendi muito com o professor, eu gostei muito dele, eu
-									consegui me preparar para o meu futuro com facilidade.
-								</p>
-							
+							<img
+								class="depoimentos-image"
+								src="img/depoimentos/student7.jpg"
+								alt="foto aluna Joana D'Arc"
+							/>
+							<h5>
+								<b> Joana Soares, Pedagogia </b>
+							</h5>
+							<p>
+								"Aprendi muito com o professor, eu gostei muito dele, eu
+								consegui me preparar para o meu futuro com facilidade.
+							</p>
 						</div>
 						<div class="depoimento">
 							<img
@@ -348,42 +385,34 @@
 								alt="foto aluna Paula Tejano"
 							/>
 							<h5>
-								<b>
-									Paula Tejano, Direito
-								</b>
+								<b> Paula Tejano, Direito </b>
 							</h5>
 							<p>
 								"As aulas foram muito boas, adorei a didática! Eu gostei muito!
 							</p>
-					</div>
-					<div class="depoimento">
-						<img
-							class="depoimentos-image"
-							src="img/depoimentos/student6.jpg"
-							alt="foto aluna Tomás Turbano"
-						/>
-						<h5>
-							<b>
-								Tomás Turbano, Gestão de RH
-							</b>
-						</h5>
-						<p>
-							"A instituição é boa e eu gostei muito do atendimento! Aqui em Belo Horizonte todo mundo tá fazendo!"
-						</p>
-					
-				</div>
-
-
+						</div>
+						<div class="depoimento">
+							<img
+								class="depoimentos-image"
+								src="img/depoimentos/student6.jpg"
+								alt="foto aluna Tomás Turbano"
+							/>
+							<h5>
+								<b> Tomás Turbano, Gestão de RH </b>
+							</h5>
+							<p>
+								"A instituição é boa e eu gostei muito do atendimento! Aqui em
+								Belo Horizonte todo mundo tá fazendo!"
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-						
-
+		</section>
 
 		<!-- --------------------------------------------------------------------------------- -->
 		<!-- PERGUNTAS FREQUENTES ------------------------------------------------------------ -->
 		<!-- --------------------------------------------------------------------------------- -->
-
 
 		<section id="faq-section" class="container">
 			<div class="accordion margin-spacing-v" id="faq-accordion">
@@ -412,8 +441,8 @@
 						<div class="accordion-body">
 							Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 							Inventore, asperiores a. Porro adipisci doloremque temporibus
-							maxime corrupti natus beatae. Non in atque beatae quasi nam
-							illum rerum suscipit consequuntur illo.
+							maxime corrupti natus beatae. Non in atque beatae quasi nam illum
+							rerum suscipit consequuntur illo.
 						</div>
 					</div>
 				</div>
@@ -474,7 +503,6 @@
 			</div>
 		</section>
 
-
 		<!-- --------------------------------------------------------------------------------- -->
 		<!-- WHATSAPP BUTTON------------------------------------------------------------------ -->
 		<!-- --------------------------------------------------------------------------------- -->
@@ -506,9 +534,7 @@
 								>
 							</li>
 							<li>
-								<a href="">
-									Blog
-								</a>
+								<a href=""> Blog </a>
 							</li>
 							<li>
 								<a
@@ -1012,18 +1038,14 @@
 			</div>
 		</footer>
 
-
-
 		<!-- --------------------------------------------------------------------------------- -->
 		<!-- SCRIPTS ------------------------------------------------------------------------- -->
 		<!-- --------------------------------------------------------------------------------- -->
-		
-
 
 		<script
-		src="https://kit.fontawesome.com/1ee9f6a63a.js"
-		crossorigin="anonymous"
-	></script>
+			src="https://kit.fontawesome.com/1ee9f6a63a.js"
+			crossorigin="anonymous"
+		></script>
 
 		<script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -1031,8 +1053,18 @@
 			crossorigin="anonymous"
 		></script>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+			integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
 
 		<script src="scripts/scripts.js" async defer></script>
 	</body>

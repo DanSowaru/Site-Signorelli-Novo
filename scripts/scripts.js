@@ -1,10 +1,10 @@
 // Menu degustação - Owl Carrousel
 $(".owl-carousel").owlCarousel({
-	loop: true,
+	loop: false,
 	margin: 10,
-	autoplay: true,
+	autoplay: false,
 	autoplayTimeout: 3000,
-	stagePadding: 25,
+	stagePadding: 0,
 	nav: true,
 	responsive: {
 		0: {
