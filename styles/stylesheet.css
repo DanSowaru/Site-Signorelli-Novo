@@ -53,6 +53,10 @@ cores sig {
 	background-color: #2a406e;
 }
 
+.signorelli-dark-blue {
+	background-color: #031231;
+}
+
 .signorelli-red {
 	background-color: #b02726;
 }
@@ -165,7 +169,6 @@ cores sig {
 } */
 
 #homepage-header {
-	background-color: #031231;
 	color: white;
 	min-width: 110%;
 	position: relative;
@@ -182,9 +185,7 @@ cores sig {
 	margin-top: 4vw;
 }
 
-#navbar-container {
-
-	
+#navbar-container {	
 }
 
 
@@ -356,16 +357,22 @@ cores sig {
 	color: white;
 }
 
-.footer-links-list-solid,
+.footer-button {
+	width: 100%;
+	background-color: #aab4ff;
+	color:#031231;
+}
+
+
 .footer-links-list a {
-	color: #b0b7f0;
+	color: #aab4ff;
 	text-decoration: none;
 }
 
 .footer-links-list a:hover {
 	opacity: 0.5;
 }
-
+/* 
 .footer-links-list li {
 	list-style-type: none;
 }
@@ -382,7 +389,7 @@ cores sig {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	padding: 5px;
-	color: #b0b7f0;
+	color: #aab4ff;
 	text-decoration: none;
 }
 
@@ -391,7 +398,7 @@ cores sig {
 	background-color: #b02726;
 	cursor: pointer;
 	color: #b0b7f0;
-}
+} */
 
 /***************** DEPOIMENTOS */
 
@@ -430,15 +437,6 @@ cores sig {
   position: relative;
 	}
 	
-	.blink-matricula-button {
-		animation: blinker-matricula 4s linear infinite;
-	}
-	
-	@keyframes blinker-matricula {
-		50% {
-	
-		}
-	}
 
 	  #matricula-button:after {
 		content:'';
@@ -472,8 +470,8 @@ cores sig {
 }
 
 /*************** Desktop adjustments ****/
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 	#navbar-section {
 		position: relative;
 	}
-}
+} */
