@@ -20,3 +20,12 @@ $(".owl-carousel").owlCarousel({
 $(document).ready(function () {
 	$(".owl-carousel").owlCarousel();
 });
+
+// script to close burger menu collapsed if clicking outside of it
+$(document).ready(function () {
+	$(document).click(function () {
+		// if($(".navbar-collapse").hasClass("in")){
+		$(".navbar-collapse").collapse("hide");
+		// }
+	});
+});
