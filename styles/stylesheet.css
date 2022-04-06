@@ -386,15 +386,17 @@ cores sig {
 }
 
 .footer-menu-drop-button {
-	color: #fff;
+	color: #fff !important;
 	font-size: 6vw;
 	padding: 2vw 0;
 }
 
-.footer-links-list ul {
+.footer-links-list menu {
 	list-style-type: none;
 	padding: 0;
 }
+
+
 
 /* 
 .footer-links-list span {
