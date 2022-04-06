@@ -372,11 +372,30 @@ cores sig {
 .footer-links-list a:hover {
 	opacity: 0.5;
 }
-/* 
-.footer-links-list li {
-	list-style-type: none;
+
+#footer-accordion * {
+	background-color: rgba(255, 255, 255, 0);
 }
 
+.footer-accordion-item {
+	
+}
+
+.footer-accordion-header {
+}
+
+.footer-menu-drop-button {
+	color: #fff;
+	font-size: 6vw;
+	padding: 2vw 0;
+}
+
+.footer-links-list ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* 
 .footer-links-list span {
 	color: #fff;
 }
@@ -463,7 +482,11 @@ cores sig {
 	
 	/****************************** CREDITS */
 	
-#credits {
+#credits, #credits-span {
+	padding: 3vw 0;
+	display: flex;
+	justify-content: center;
+	width:100%;
 	text-align: center;
 	color: white;
 	font-family: 'Nunito', sans-serif;
