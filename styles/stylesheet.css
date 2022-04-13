@@ -47,6 +47,7 @@ cores sig {
 	color: #2e83ce;
 	color: rgb(42, 64, 110);
 	color: rgb(176, 39, 38);
+	color: #720000;
 }
 
 .signorelli-blue {
@@ -76,6 +77,7 @@ cores sig {
 		rgb(42, 64, 110, 1)
 	);
 }
+
 
 /* ***********************************************************/
 /* ***********************************************************/
@@ -130,7 +132,7 @@ cores sig {
 	font-family: "Roboto", sans-serif;
 	font-weight: 900;
 	font-size: 8vw;
-	color: #031231;
+	color: #720000;
 	display: flex;
 	justify-content: center;
 }
@@ -512,6 +514,20 @@ cores sig {
 /**************************************/
 /**************************************/
 
+#quem-somos-main {
+	
+}
+
+.gradient-underline {
+	background-image: linear-gradient(to right, rgb(110, 146, 230, 1), rgba(0,0,255,0));
+	position: relative;
+	right: 30vw;
+	transform: translateY(-2vw);
+	width: 120vw;
+	height: 5vw;
+	
+}
+
 #quem-somos-article :is(p, h2, ul) {
 	margin: 4vw 2vw;
 }
@@ -519,6 +535,12 @@ cores sig {
 #quem-somos-article h2 {
 	font-size: 8vw;
 	font-weight: 800;
+}
+
+#quem-somos-article h3 {
+	font-size: 4vw;
+	font-weight: 800;
+	color: #720000;
 }
 
 .article-container {
@@ -624,3 +646,30 @@ cores sig {
 	text-align: left;
 	vertical-align: middle;
 }
+.tg .tg-kg9c {
+	background-color: #d9d9d9;
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top;
+}
+.tg .tg-0pky {
+	border-color: inherit;
+	text-align: left;
+	vertical-align: top;
+}
+.tg .tg-xt05 {
+	background-color: #d9d9d9;
+	text-align: left;
+	vertical-align: top;
+}
+.tg .tg-0lax {
+	text-align: left;
+	vertical-align: top;
+}
+
+.small-table { 
+	font-size: xx-small;
+}
+
+
+
