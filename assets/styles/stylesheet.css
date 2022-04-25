@@ -162,11 +162,17 @@ cores sig {
 }
 
 
-/* ***********************************************************/
-/* ***********************************************************/
-/* ******************* Element Styles ************************/
-/* ***********************************************************/
-/* ***********************************************************/
+
+/**************************************/
+/**************************************/
+/**************************************/
+/**************************************/
+/***** HOMEPAGE ***********************/
+/**************************************/
+/**************************************/
+/**************************************/
+/**************************************/
+
 
 /* .solid-navbar-background {
 	min-width: 100%;
@@ -398,32 +404,6 @@ cores sig {
 	padding: 0;
 }
 
-
-
-/* 
-.footer-links-list span {
-	color: #fff;
-}
-
-.border-link {
-	border: 1px;
-	border-style: solid;
-	border-color: #b02726;
-	text-align: center;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	padding: 5px;
-	color: #aab4ff;
-	text-decoration: none;
-}
-
-.border-link:hover,
-.border-link:hover a {
-	background-color: #b02726;
-	cursor: pointer;
-	color: #b0b7f0;
-} */
-
 /***************** DEPOIMENTOS */
 
 .depoimento {
@@ -454,36 +434,36 @@ cores sig {
 }
 
 #matricula-button {
-	 font-size: 10vw;
-	 font-weight: 800;
-  width:80%;
-  z-index:0;
-  position: relative;
+	font-size: 10vw;
+	font-weight: 800;
+	width:80%;
+	z-index:0;
+	position: relative;
 	}
 	
 
-	  #matricula-button:after {
-		content:'';
-	  	top:0;
-		transform:translateX(100%);
-		width:100%;
-		height:220px;
-		position: absolute;
-		z-index:1;
-		animation: slide 8s infinite 1s;
-		background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(128,186,232,0) 99%, rgba(125,185,232,0) 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,0.8)), color-stop(99%,rgba(128,186,232,0)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* IE10+ */
-		background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
-	  }
+#matricula-button:after {
+	content:'';
+	top:0;
+	transform:translateX(100%);
+	width:100%;
+	height:220px;
+	position: absolute;
+	z-index:1;
+	animation: slide 8s infinite 1s;
+	background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,0.8) 50%, rgba(128,186,232,0) 99%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(255,255,255,0.8)), color-stop(99%,rgba(128,186,232,0)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* IE10+ */
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,0.8) 50%,rgba(128,186,232,0) 99%,rgba(125,185,232,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+}
 
-	  @keyframes slide {
-		0% {transform:translateX(-250%);}
-		10% {transform:translateX(100%);}
-	}
+@keyframes slide {
+	0% {transform:translateX(-250%);}
+	10% {transform:translateX(100%);}
+}
 	
 	/****************************** CREDITS */
 	
@@ -499,8 +479,7 @@ cores sig {
 
 /*************** Desktop adjustments ****/
 /* @media (min-width: 768px) {
-	#navbar-section {
-		position: relative;
+	
 	}
 } */
 
@@ -688,3 +667,21 @@ cores sig {
 
 
 
+/**************************************/
+/**************************************/
+/**************************************/
+/**************************************/
+/***** CURSOS/ ************************/ 
+/***** GRADUACAO **********************/
+/**************************************/
+/**************************************/
+/**************************************/
+/**************************************/
+
+.small-descritive-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 5vw;
+	color: #720000;
+	
+}
