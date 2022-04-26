@@ -137,6 +137,14 @@ cores sig {
 	justify-content: center;
 }
 
+.small-descritive-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 5vw;
+	color: #720000;
+	
+}
+
 
 .blink-animation-form {
 	animation: blinker 4s linear infinite;
@@ -678,10 +686,44 @@ cores sig {
 /**************************************/
 /**************************************/
 
-.small-descritive-title {
-	font-family: "Roboto", sans-serif;
-	font-weight: 900;
-	font-size: 5vw;
-	color: #720000;
+#graduacao-presencial-main {
+	background-color: rgb(216, 216, 216);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
 	
 }
+
+#courses-page-title {
+	font-size: 8vw;
+	font-weight: 900;
+	color: #720000;
+	margin: 0;
+	padding: 10vw 0;
+}
+
+#courses-tabs-container {
+	padding: 0;
+}
+
+#courses-tabs-container i {
+	padding: 1vw;
+	color: #2a406e;
+}
+
+#courses-tabs-container .nav-tabs {
+	margin: 0 2vw;
+}
+
+#courses-tabs-container :is(.active) {
+	background-color: rgb(255, 255, 255);
+	
+}
+
+.courses-rows-container {
+	padding: 2vw;
+
+}
+
+

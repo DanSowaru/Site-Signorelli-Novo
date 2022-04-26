@@ -186,62 +186,135 @@
 		<!-- MAIN ---------------------------------------------------------------------------- -->
 		<!-- --------------------------------------------------------------------------------- -->
 
-		<main>
+		<main id="graduacao-presencial-main">
 			<!-- --------------------------------------------------------------------------------- -->
-			<!-- TITULO PAGINA ------------------------------------------------------------------------ -->
+			<!-- TITULO PAGINA ------------------------------------------------------------------- -->
 			<!-- --------------------------------------------------------------------------------- -->
 
 			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2 id="courses-page-title">Graduação Presencial</h2>
+					</div>
+				</div>
+			</div>
+
+			<!-- --------------------------------------------------------------------------------- -->
+			<!-- TABS CONTAINER LISTS ------------------------------------------------------------------- -->
+			<!-- --------------------------------------------------------------------------------- -->
+
+			<div id="courses-tabs-container" class="container-fluid">
 				<ul class="nav nav-tabs" id="cursos-tab" role="tablist">
 					<li class="nav-item" role="presentation">
 						<button
 							class="nav-link active"
 							id="destaques-tab"
 							data-bs-toggle="tab"
-							data-bs-target="#home"
+							data-bs-target="#cursos-destaques"
 							type="button"
 							role="tab"
-							aria-controls="home"
+							aria-controls="cursos-destaques"
 							aria-selected="true"
 						>
-							Destaques
+							<i
+								class="fa-solid fa-trophy"
+								data-bs-toggle="tooltip"
+								data-bs-placement="down"
+								title="Destaques"
+							></i>
 						</button>
 					</li>
+
 					<li class="nav-item" role="presentation">
 						<button
 							class="nav-link"
 							id="todos-tab"
 							data-bs-toggle="tab"
-							data-bs-target="#profile"
+							data-bs-target="#cursos-todos"
 							type="button"
 							role="tab"
-							aria-controls="profile"
+							aria-controls="cursos-todos"
 							aria-selected="false"
 						>
-							Todos <br />
+							<i
+								class="fa-solid fa-table-cells-large"
+								data-bs-toggle="tooltip"
+								data-bs-placement="down"
+								title="Todos"
+							></i>
+							<br />
 						</button>
 					</li>
+
 					<li class="nav-item" role="presentation">
 						<button
 							class="nav-link"
-							id="humanas-tab"
+							id="exatas-tab"
 							data-bs-toggle="tab"
-							data-bs-target="#contact"
+							data-bs-target="#cursos-exatas"
 							type="button"
 							role="tab"
-							aria-controls="contact"
+							aria-controls="cursos-exatas"
 							aria-selected="false"
 						>
-							Humanas
+							<i
+								class="fa-solid fa-book"
+								data-bs-toggle="tooltip"
+								data-bs-placement="down"
+								title="Humanas"
+							></i>
+						</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button
+							class="nav-link"
+							id="exatas-tab"
+							data-bs-toggle="tab"
+							data-bs-target="#cursos-exatas"
+							type="button"
+							role="tab"
+							aria-controls="cursos-exatas"
+							aria-selected="false"
+						>
+							<i
+								class="fa-solid fa-calculator"
+								data-bs-toggle="tooltip"
+								data-bs-placement="down"
+								title="Exatas"
+							></i>
+						</button>
+					</li>
+
+					<li class="nav-item" role="presentation">
+						<button
+							class="nav-link"
+							id="sociais-tab"
+							data-bs-toggle="tab"
+							data-bs-target="#cursos-sociais"
+							type="button"
+							role="tab"
+							aria-controls="cursos-sociais"
+							aria-selected="false"
+						>
+							<i
+								class="fa-solid fa-briefcase"
+								data-bs-toggle="tooltip"
+								data-bs-placement="down"
+								title="Sociais"
+							></i>
 						</button>
 					</li>
 				</ul>
+
+				<!------ TABS CONTENT  -------------------------------------------------->
+
 				<section class="tab-content" id="myTabContent">
 					<section
 						class="tab-pane fade show active"
-						id="home"
+						id="cursos-destaques"
 						role="tabpanel"
-						aria-labelledby="home-tab"
+						aria-labelledby="cursos-destaques-tab"
 					>
 						<!-- --------------------------------------------------------------------------------- -->
 						<!-- CURSOS - ABA DESTAQUES------------------------------------------------------------------ -->
@@ -249,7 +322,7 @@
 
 						<!-- Fileira - Cursos mais procurados ------------------------------------------------------------------ -->
 
-						<div id="courses-rows-container">
+						<div class="courses-rows-container">
 							<div class="row course-row">
 								<section id="most-searched-courses" class="margin-spacing-v">
 									<h3 class="small-descritive-title">
@@ -448,19 +521,20 @@
 
 					<section
 						class="tab-pane fade"
-						id="profile"
+						id="cursos-todos"
 						role="tabpanel"
-						aria-labelledby="profile-tab"
+						aria-labelledby="cursos-todos-tab"
 					>
 						Teste Profile
 					</section>
+
 					<section
 						class="tab-pane fade"
-						id="contact"
+						id="cursos-exatas"
 						role="tabpanel"
-						aria-labelledby="contact-tab"
+						aria-labelledby="cursos-exatas-tab"
 					>
-						Teste Contact
+						Teste Profile
 					</section>
 				</section>
 			</div>

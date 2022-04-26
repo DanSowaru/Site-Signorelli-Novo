@@ -57,7 +57,7 @@ $(".courses-list").owlCarousel({
 	margin: 5,
 	autoplay: false,
 	autoplayTimeout: 3000,
-	stagePadding: 30,
+	stagePadding: 0,
 	nav: false,
 	dots: false,
 	responsive: {
