@@ -353,6 +353,10 @@ cores sig {
 	z-index: 100;
 }
 
+.telegram-float {
+
+}
+
 .whatsapp-float:visited,
 .whatsapp-float:hover {
 	color: #fff;
@@ -724,4 +728,19 @@ cores sig {
 	padding: 2vw;
 }
 
+.courses-list-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2vw;
+}
 
+.courses-list-item {
+	margin: 1vw;
+	width: 47%;
+}
+
+.course-card-item {
+	max-width:100%;
+	max-height: 100%;
+}
