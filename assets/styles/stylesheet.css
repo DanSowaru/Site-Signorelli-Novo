@@ -700,7 +700,7 @@ cores sig {
 	font-weight: 900;
 	color: #720000;
 	margin: 0;
-	padding: 10vw 0;
+	padding: 14vw 0;
 }
 
 #courses-tabs-container {
@@ -717,13 +717,11 @@ cores sig {
 }
 
 #courses-tabs-container :is(.active) {
-	background-color: rgb(255, 255, 255);
-	
+	background-color: rgb(255, 255, 255);	
 }
 
 .courses-rows-container {
 	padding: 2vw;
-
 }
 
 
