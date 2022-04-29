@@ -122,12 +122,16 @@ cores sig {
 }
 
 .margin-spacing-v {
-	margin: 8vw 0;
+	margin: 6vw 0;
 }
 
 .padding-spacing-h {
 	padding-left: 2vw;
 	padding-right: 2vw;
+}
+
+.no-bullet-points{
+	list-style-type: none;
 }
 
 .column-flow {
