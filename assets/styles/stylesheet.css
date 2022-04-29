@@ -50,16 +50,24 @@ cores sig {
 	color: #720000;
 }
 
+.light-gray.bg {
+	background-color: #f5f5f5;
+
+}
+
 .signorelli-blue {
 	background-color: #2a406e;
+	color: white;
 }
 
 .signorelli-dark-blue {
 	background-color: #031231;
+	color: white;
 }
 
 .signorelli-red {
 	background-color: #b02726;
+	color: white;
 }
 
 .red-gradient {
@@ -144,7 +152,6 @@ cores sig {
 	color: #720000;
 	
 }
-
 
 .blink-animation-form {
 	animation: blinker 4s linear infinite;
@@ -479,7 +486,7 @@ cores sig {
 	
 	/****************************** CREDITS */
 	
-#credits, #credits-span {
+#important, #important-span {
 	padding: 3vw 0;
 	display: flex;
 	justify-content: center;
@@ -745,4 +752,9 @@ cores sig {
 	max-height: 100%;
 }
 
-.
+#courses-filter-modal {
+	
+}
+
+/* MODAL */
+

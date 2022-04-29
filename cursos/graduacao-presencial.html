@@ -197,7 +197,7 @@
 			</div>
 
 			<!-- --------------------------------------------------------------------------------- -->
-			<!-- TABS CONTAINER LISTS ------------------------------------------------------------------- -->
+			<!-- TABS CONTAINER TAB-LIST ------------------------------------------------------------------- -->
 			<!-- --------------------------------------------------------------------------------- -->
 
 			<div id="courses-tabs-container" class="container-fluid">
@@ -519,9 +519,215 @@
 						aria-labelledby="cursos-todos-tab"
 					>
 						<!-- Courses - Filter Modal Button ------------------------------------------------------------- -->
+
+						<!-- Button trigger modal -->
+
 						<br />
 						<div class="d-grid gap-2 col-11 mx-auto">
-							<button class="btn btn-secondary" type="button">Filtros</button>
+							<button
+								class="btn btn-secondary"
+								data-bs-toggle="modal"
+								data-bs-target="#courses-filter-modal"
+								type="button"
+							>
+								Filtros
+							</button>
+						</div>
+
+						<!-- Modal -->
+
+						<div
+							class="modal fade"
+							id="courses-filter-modal"
+							tabindex="-1"
+							aria-labelledby="courses-filter-modal"
+							aria-hidden="true"
+						>
+							<div class="modal-dialog">
+								<div class="modal-content light-gray-bg">
+									<div class="modal-header">
+										<h5 class="modal-title" id="courses-modal-label">
+											Filtros
+										</h5>
+										<button
+											type="button"
+											class="btn-close"
+											data-bs-dismiss="modal"
+											aria-label="Close"
+										></button>
+									</div>
+									<div class="modal-body">
+										<div class="container-fluid" id="filters-list-container">
+											<div class="filters-list">
+												<div
+													class="accordion accordion-flush"
+													id="filters-accordion"
+												>
+													<div class="filters-accordion-item">
+														<h2
+															class="filters-accordion-header"
+															id="flush-filters-heading-1"
+														>
+															<button
+																class="accordion-button filters-menu-drop-button collapsed"
+																type="button"
+																data-bs-toggle="collapse"
+																data-bs-target="#filters-flush-collapse-1"
+																aria-expanded="false"
+																aria-controls="filters-flush-collapse-1"
+															>
+																Localidade
+															</button>
+														</h2>
+														<div
+															id="filters-flush-collapse-1"
+															class="accordion-collapse collapse"
+															aria-labelledby="flush-filters-heading-1"
+															data-bs-parent="#filters-accordion"
+														>
+															<div class="accordion-body filters-links-list">
+																<menu>
+																	<li>
+																		<a
+																			href="https://unisignorelli.com.br/sobre-nos/"
+																		>
+																			Norte
+																		</a>
+																	</li>
+																	<li>
+																		<a
+																			href="https://unisignorelli.com.br/sobre-nos/"
+																		>
+																			Sudeste
+																		</a>
+																	</li>
+																	<li>
+																		<a
+																			href="https://unisignorelli.com.br/sobre-nos/"
+																		>
+																			Sul
+																		</a>
+																	</li>
+																	<li>
+																		<a
+																			href="https://unisignorelli.com.br/sobre-nos/"
+																		>
+																			Nordeste
+																		</a>
+																	</li>
+																</menu>
+															</div>
+														</div>
+													</div>
+													<div class="filters-accordion-item">
+														<h2
+															class="filters-accordion-header"
+															id="flush-filters-heading-2"
+														>
+															<button
+																class="accordion-button filters-menu-drop-button collapsed"
+																type="button"
+																data-bs-toggle="collapse"
+																data-bs-target="#filters-flush-collapse-2"
+																aria-expanded="false"
+																aria-controls="filters-flush-collapse-2"
+															>
+																Duração
+															</button>
+														</h2>
+														<div
+															id="filters-flush-collapse-2"
+															class="accordion-collapse collapse"
+															aria-labelledby="flush-filters-heading-2"
+															data-bs-parent="#filters-accordion"
+														>
+															<div class="accordion-body filters-links-list">
+																<menu>
+																	<li>
+																		<input type="radio" id="2y" name="2 anos" />
+																		<label for="2y">2 anos</label>
+																	</li>
+																	<li>
+																		<input type="radio" id="3y" name="3 anos" />
+																		<label for="3y">3 anos</label>
+																	</li>
+																	<li>
+																		<input type="radio" id="4y" name="4 anos" />
+																		<label for="4y">4 anos</label>
+																	</li>
+																	<li>
+																		<input type="radio" id="5y" name="5 anos" />
+																		<label for="5y">5 anos</label>
+																	</li>
+																</menu>
+															</div>
+														</div>
+													</div>
+													<div class="filters-accordion-item">
+														<h2
+															class="filters-accordion-header"
+															id="flush-filters-heading-3"
+														>
+															<button
+																class="accordion-button filters-menu-drop-button collapsed"
+																type="button"
+																data-bs-toggle="collapse"
+																data-bs-target="#filters-flush-collapse-3"
+																aria-expanded="false"
+																aria-controls="filters-flush-collapse-3"
+															>
+																Menu 3
+															</button>
+														</h2>
+														<div
+															id="filters-flush-collapse-3"
+															class="accordion-collapse collapse"
+															aria-labelledby="flush-filters-heading-3"
+															data-bs-parent="#filters-accordion"
+														>
+															<div class="accordion-body filters-links-list">
+																<menu>
+																	<li>
+																		<a href="intitucional/quem-somos.html">
+																			Link 1
+																		</a>
+																	</li>
+																	<li>
+																		<a
+																			href="https://unisignorelli.com.br/sobre-nos/"
+																		>
+																			Link 2
+																		</a>
+																	</li>
+																	<li>
+																		<a
+																			href="https://unisignorelli.com.br/sobre-nos/"
+																		>
+																			Link 3
+																		</a>
+																	</li>
+																</menu>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button
+											type="button"
+											class="btn btn-secondary"
+											data-bs-dismiss="modal"
+										>
+											Cancelar
+										</button>
+										<button type="button" class="btn btn-primary">
+											Aplicar filtros
+										</button>
+									</div>
+								</div>
+							</div>
 						</div>
 
 						<!-- Courses - Container List ------------------------------------------------------------------ -->
@@ -807,9 +1013,9 @@
 					tabindex="0"
 					data-toggle="tooltip"
 					title="Design e layout by client, not me!"
-					id="credits-span"
+					id="important-span"
 				>
-					<section id="credits"></section>
+					<section id="important"></section>
 				</span>
 			</div>
 		</footer>
